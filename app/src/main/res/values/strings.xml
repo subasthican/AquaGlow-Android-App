@@ -92,4 +92,12 @@
     <string name="date_range">Date Range</string>
     <string name="clear">Clear</string>
     <string name="no_matches">No matches found.</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="upcoming_reminders">Upcoming Reminders</string>
+    <string name="send_test_notification">Send Test Notification</string>
+    <string name="clear_history">Clear History</string>
+    <string name="past_alerts">Past Alerts</string>
+    <string name="no_history">No history yet.</string>
 </resources>

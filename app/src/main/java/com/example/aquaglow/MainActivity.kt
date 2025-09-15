@@ -50,6 +50,12 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
+                R.id.nav_notifications -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, NotificationsFragment())
+                        .commit()
+                    true
+                }
                 else -> false
             }
         }

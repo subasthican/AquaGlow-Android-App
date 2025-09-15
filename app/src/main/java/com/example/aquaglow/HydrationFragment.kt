@@ -65,6 +65,14 @@ class HydrationFragment : Fragment() {
         val pending = PendingIntent.getBroadcast(context, 1001, intent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
         val triggerAt = System.currentTimeMillis() + intervalHours * 60 * 60 * 1000
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, triggerAt, intervalHours * 60 * 60 * 1000, pending)
+
+        // persist schedule for Notifications page
+        val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+        prefs.edit()
+            .putBoolean("hydrationReminderEnabled", true)
+            .putInt("hydrationReminderIntervalHours", intervalHours.toInt())
+            .putLong("hydrationReminderNextTime", triggerAt)
+            .apply()
     }
 
     private fun cancelReminders() {
@@ -73,6 +81,11 @@ class HydrationFragment : Fragment() {
         val intent = Intent(context, HydrationReminderReceiver::class.java)
         val pending = PendingIntent.getBroadcast(context, 1001, intent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
         alarmManager.cancel(pending)
+
+        val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+        prefs.edit()
+            .putBoolean("hydrationReminderEnabled", false)
+            .apply()
     }
 
     override fun onDestroyView() {
