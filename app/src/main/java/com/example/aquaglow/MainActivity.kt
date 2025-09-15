@@ -34,6 +34,12 @@ class MainActivity : AppCompatActivity() {
                     // TODO: open Mood screen fragment/activity
                     true
                 }
+                R.id.nav_profile -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, ProfileFragment())
+                        .commit()
+                    true
+                }
                 else -> false
             }
         }
