@@ -41,6 +41,10 @@
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AquaGlow" />
+
+        <receiver
+            android:name=".HydrationReminderReceiver"
+            android:exported="false" />
     </application>
 
 </manifest>

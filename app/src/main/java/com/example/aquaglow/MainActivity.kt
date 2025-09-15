@@ -27,11 +27,15 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_habits -> {
-                    // TODO: open Habits screen fragment/activity
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, HabitTrackerFragment())
+                        .commit()
                     true
                 }
                 R.id.nav_mood -> {
-                    // TODO: open Mood screen fragment/activity
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, MoodJournalFragment())
+                        .commit()
                     true
                 }
                 R.id.nav_profile -> {

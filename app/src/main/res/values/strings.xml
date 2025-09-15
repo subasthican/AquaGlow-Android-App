@@ -65,4 +65,21 @@
     <string name="log_out">Log Out</string>
     <string name="edit">Edit</string>
     <string name="not_available">N/A</string>
+
+    <!-- Habits -->
+    <string name="habits_page">Habit Tracker</string>
+    <string name="habit_name_hint">Habit name</string>
+    
+    <!-- Mood -->
+    <string name="note">Note</string>
+    <string name="share_mood">Share Mood</string>
+
+    <!-- Hydration -->
+    <string name="hydration">Hydration</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="add_cup">+1 cup</string>
+    <string name="reminder_interval_hours">Every %1$d hours</string>
+    <string name="hydration_count_format">Cups today: %1$d</string>
+    <string name="time_to_drink_water">Time to drink water</string>
 </resources>
