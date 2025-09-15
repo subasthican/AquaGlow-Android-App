@@ -34,6 +34,13 @@
             android:name=".OnboardingActivity"
             android:exported="false"
             android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Auth Activity -->
+        <activity
+            android:name=".AuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AquaGlow" />
     </application>
 
 </manifest>

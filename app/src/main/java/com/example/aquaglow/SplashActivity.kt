@@ -1,5 +1,6 @@
 package com.example.aquaglow
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -99,19 +100,27 @@ class SplashActivity : AppCompatActivity() {
     
     private fun setupSkipButton() {
         binding.skipButton.setOnClickListener {
-            navigateToMainActivity()
+            navigateNext()
         }
     }
     
     private fun scheduleAutoTransition() {
         Handler(Looper.getMainLooper()).postDelayed({
-            navigateToMainActivity()
+            navigateNext()
         }, splashDuration)
     }
     
-    private fun navigateToMainActivity() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+    private fun navigateNext() {
+        val prefs = getSharedPreferences(OnboardingActivity.PREFS, Context.MODE_PRIVATE)
+        val onboardingDone = prefs.getBoolean(OnboardingActivity.KEY_ONBOARDING_COMPLETE, false)
+        val isLoggedIn = prefs.getBoolean(AuthActivity.KEY_IS_LOGGED_IN, false)
+
+        val next = when {
+            !onboardingDone -> Intent(this, OnboardingActivity::class.java)
+            !isLoggedIn -> Intent(this, AuthActivity::class.java)
+            else -> Intent(this, MainActivity::class.java)
+        }
+        startActivity(next)
         finish()
         
         // Add smooth transition animation

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textGreeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666"/>
+        </LinearLayout>
+
+        <!-- Cards -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerCards"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Simplified cards content as static views for now -->
+        <TextView
+            android:id="@+id/cardHabitsProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/auth_gradient_background"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/cardMoodSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/auth_gradient_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/cardHydrationSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/auth_gradient_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Quick Actions -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="16dp">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonAddHabit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_habit"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonLogMood"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/log_mood"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonLogWater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/log_water"/>
+        </LinearLayout>
+
+        <!-- Quote -->
+        <TextView
+            android:id="@+id/textQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

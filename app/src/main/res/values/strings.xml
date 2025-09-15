@@ -15,4 +15,41 @@
     
     <string name="onboarding_title_3">Stay Hydrated</string>
     <string name="onboarding_desc_3">Set reminders and track your water intake to keep your body refreshed and energized.</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_invalid_credentials">Invalid email or password</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="habits">Habits</string>
+    <string name="mood">Mood</string>
+    <string name="guest">Guest</string>
+    <string name="greeting_with_name">%1$s, %2$s!</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="habits_progress_format">Habits: %1$d%% complete today</string>
+    <string name="mood_last_logged_format">You felt %1$s at %2$s</string>
+    <string name="mood_not_logged">No mood logged yet today</string>
+    <string name="hydration_summary_format">Hydration: %1$d / %2$d cups</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="log_mood">Log Mood</string>
+    <string name="log_water">Log Water</string>
+
+    <string-array name="wellness_quotes">
+        <item>Small steps, big changes.</item>
+        <item>Drink water, feel better.</item>
+        <item>Your habits shape your future.</item>
+        <item>Consistency beats intensity.</item>
+        <item>Hydrate. Track. Thrive.</item>
+    </string-array>
 </resources>
