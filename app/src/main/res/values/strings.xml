@@ -116,6 +116,27 @@
     <string name="language">Language</string>
     <string name="app_language">App Language</string>
     <string name="app_version">App Version</string>
+    <!-- About / Help -->
+    <string name="about_help">About &amp; Help</string>
+    <string name="tagline">Glow with Hydration &amp; Wellness.</string>
+    <string name="about_aquaglow">About AquaGlow</string>
+    <string name="about_desc">AquaGlow is your all-in-one daily wellness companion, helping you track habits, log moods, and stay hydrated.</string>
+    <string name="app_version_full">v1.0.0</string>
+    <string name="help_faqs">Help &amp; FAQs</string>
+    <string name="faq_how_add_habit">How to add a new habit?</string>
+    <string name="faq_how_add_habit_ans">Go to Habit Tracker and tap the + button. Enter a name and save.</string>
+    <string name="faq_change_reminder_times">How to change hydration reminder times?</string>
+    <string name="faq_change_reminder_times_ans">Open Settings &gt; Notifications to adjust reminder preferences.</string>
+    <string name="faq_where_data">Where is my data stored?</string>
+    <string name="faq_where_data_ans">Your data is stored locally on your device using SharedPreferences. No cloud database is used.</string>
+    <string name="contact_feedback">Contact &amp; Feedback</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="footer_made_in_sl">Made with 💧 in Sri Lanka – 2025</string>
+    <string name="privacy_url">https://example.com/privacy</string>
+    <string name="support_email">support@aquaglow.app</string>
+    <string name="feedback_subject">AquaGlow Feedback</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.example.aquaglow</string>
 
     <string-array name="theme_entries">
         <item>Light</item>

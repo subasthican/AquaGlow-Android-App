@@ -62,6 +62,12 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
+                R.id.nav_about -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, AboutHelpFragment())
+                        .commit()
+                    true
+                }
                 else -> false
             }
         }
