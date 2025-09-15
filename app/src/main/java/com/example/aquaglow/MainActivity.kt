@@ -44,6 +44,12 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
+                R.id.nav_search -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, SearchFilterFragment())
+                        .commit()
+                    true
+                }
                 else -> false
             }
         }
