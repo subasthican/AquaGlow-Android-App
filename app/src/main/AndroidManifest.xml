@@ -28,6 +28,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <!-- Onboarding Activity -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
     </application>
 
 </manifest>

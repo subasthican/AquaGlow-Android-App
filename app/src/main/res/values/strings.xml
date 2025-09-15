@@ -2,4 +2,17 @@
     <string name="app_name">AquaGlow</string>
     <string name="app_tagline">Hydrate. Track. Thrive.</string>
     <string name="skip">Skip</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <string name="onboarding_title_1">Track Your Daily Habits</string>
+    <string name="onboarding_desc_1">Add, edit, and monitor your wellness routines every day to build consistency and stay motivated.</string>
+    
+    <string name="onboarding_title_2">Reflect On Your Mood</string>
+    <string name="onboarding_desc_2">Log how you feel with simple mood journaling to understand patterns and improve your wellbeing.</string>
+    
+    <string name="onboarding_title_3">Stay Hydrated</string>
+    <string name="onboarding_desc_3">Set reminders and track your water intake to keep your body refreshed and energized.</string>
 </resources>
