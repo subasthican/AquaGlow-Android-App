@@ -18,6 +18,9 @@
     <item
         android:id="@+id/nav_notifications"
         android:title="@string/notifications"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings"/>
 </menu>
 
 

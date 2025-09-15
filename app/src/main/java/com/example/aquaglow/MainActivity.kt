@@ -56,6 +56,12 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
+                R.id.nav_settings -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.nav_host_container, SettingsFragment())
+                        .commit()
+                    true
+                }
                 else -> false
             }
         }
