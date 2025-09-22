@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M0,0 L280,0 L280,280 L0,280 Z" />
+
+    <!-- Couch/Seat -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M40,180 C40,160 60,140 80,140 L200,140 C220,140 240,160 240,180 L240,200 C240,220 220,240 200,240 L80,240 C60,240 40,220 40,200 Z" />
+    
+    <!-- Couch back -->
+    <path
+        android:fillColor="@color/secondary_dark"
+        android:pathData="M50,120 C50,100 70,80 90,80 L190,80 C210,80 230,100 230,120 L230,140 L50,140 Z" />
+
+    <!-- Woman sitting on couch -->
+    <!-- Hair (bun) -->
+    <path
+        android:fillColor="@color/gray_800"
+        android:pathData="M120,60 C110,50 100,45 90,50 C80,55 75,65 80,75 C85,85 95,90 105,85 C115,80 120,70 120,60 Z" />
+    
+    <!-- Face -->
+    <path
+        android:fillColor="@color/gray_100"
+        android:pathData="M100,80 C100,70 110,60 120,60 C130,60 140,70 140,80 L140,100 C140,110 130,120 120,120 C110,120 100,110 100,100 Z" />
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M108,85 C108,83 109,82 111,82 C112,82 113,83 113,85 C113,87 112,88 111,88 C109,88 108,87 108,85 Z" />
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M127,85 C127,83 128,82 130,82 C131,82 132,83 132,85 C132,87 131,88 130,88 C128,88 127,87 127,85 Z" />
+    
+    <!-- Smile -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:strokeWidth="2"
+        android:strokeColor="@color/primary_dark"
+        android:pathData="M108,95 C108,95 112,99 120,99 C128,99 132,95 132,95" />
+    
+    <!-- Body (light green top) -->
+    <path
+        android:fillColor="@color/success_light"
+        android:pathData="M90,120 C90,120 90,160 120,160 C150,160 150,120 150,120 L140,120 L140,130 C140,140 130,150 120,150 C110,150 100,140 100,130 L100,120 Z" />
+    
+    <!-- Arms -->
+    <path
+        android:fillColor="@color/gray_100"
+        android:pathData="M80,130 C75,125 70,130 70,135 L70,145 C70,150 75,155 80,155 C85,155 90,150 90,145 L90,135 C90,130 85,125 80,130 Z" />
+    <path
+        android:fillColor="@color/gray_100"
+        android:pathData="M160,130 C155,125 150,130 150,135 L150,145 C150,150 155,155 160,155 C165,155 170,150 170,145 L170,135 C170,130 165,125 160,130 Z" />
+    
+    <!-- Skirt (dark) -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M100,160 C100,160 100,200 120,200 C140,200 140,160 140,160 L140,150 C140,140 130,130 120,130 C110,130 100,140 100,150 Z" />
+    
+    <!-- Legs -->
+    <path
+        android:fillColor="@color/gray_100"
+        android:pathData="M110,200 C110,200 110,240 115,240 L125,240 C130,240 130,200 130,200 L130,190 C130,180 120,170 120,170 C120,170 110,180 110,190 Z" />
+    
+    <!-- Extended leg -->
+    <path
+        android:fillColor="@color/gray_100"
+        android:pathData="M130,200 C130,200 130,220 135,220 L145,220 C150,220 150,200 150,200 L150,190 C150,180 140,170 140,170 C140,170 130,180 130,190 Z" />
+    
+    <!-- Book -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M160,140 C160,130 170,120 180,120 L200,120 C210,120 220,130 220,140 L220,180 C220,190 210,200 200,200 L180,200 C170,200 160,190 160,180 Z" />
+    
+    <!-- Book pages -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M170,130 L190,130 L190,190 L170,190 Z" />
+    
+    <!-- Coffee cup -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M200,200 C195,200 190,205 190,210 L190,220 C190,225 195,230 200,230 C205,230 210,225 210,220 L210,210 C210,205 205,200 200,200 Z" />
+    
+    <!-- Coffee steam -->
+    <path
+        android:fillColor="@color/white"
+        android:strokeWidth="2"
+        android:strokeColor="@color/white"
+        android:pathData="M195,190 C195,190 195,185 200,185 C205,185 205,190 205,190" />
+    <path
+        android:fillColor="@color/white"
+        android:strokeWidth="2"
+        android:strokeColor="@color/white"
+        android:pathData="M198,185 C198,185 198,180 200,180 C202,180 202,185 202,185" />
+
+</vector>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle with Gradient Effect -->
+    <path
+        android:fillColor="@color/white"
+        android:fillAlpha="0.1"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+
+    <!-- Outer Ring -->
+    <path
+        android:fillColor="@color/white"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+
+    <!-- Main Circle -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M100,100m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+
+    <!-- Person 1 (Left) - Woman -->
+    <group android:translateX="60" android:translateY="100">
+        <!-- Head -->
+        <path
+            android:fillColor="@color/secondary_light"
+            android:pathData="M0,-20m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        
+        <!-- Body -->
+        <path
+            android:fillColor="@color/primary_light"
+            android:pathData="M-6,0L6,0L6,25L-6,25Z" />
+        
+        <!-- Arms -->
+        <path
+            android:fillColor="@color/primary_light"
+            android:pathData="M-6,5L-12,15L-8,18L-2,8Z" />
+        <path
+            android:fillColor="@color/primary_light"
+            android:pathData="M6,5L12,15L8,18L2,8Z" />
+        
+        <!-- Legs -->
+        <path
+            android:fillColor="@color/primary_dark"
+            android:pathData="M-3,25L-3,40L-1,40L-1,25Z" />
+        <path
+            android:fillColor="@color/primary_dark"
+            android:pathData="M1,25L1,40L3,40L3,25Z" />
+        
+        <!-- Hair -->
+        <path
+            android:fillColor="@color/primary"
+            android:pathData="M-8,-25C-8,-30 -4,-32 0,-32C4,-32 8,-30 8,-25L8,-20L0,-20L-8,-20Z" />
+    </group>
+
+    <!-- Person 2 (Right) - Man -->
+    <group android:translateX="140" android:translateY="100">
+        <!-- Head -->
+        <path
+            android:fillColor="@color/secondary_light"
+            android:pathData="M0,-20m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        
+        <!-- Body -->
+        <path
+            android:fillColor="@color/accent"
+            android:pathData="M-6,0L6,0L6,25L-6,25Z" />
+        
+        <!-- Arms -->
+        <path
+            android:fillColor="@color/accent"
+            android:pathData="M-6,5L-12,15L-8,18L-2,8Z" />
+        <path
+            android:fillColor="@color/accent"
+            android:pathData="M6,5L12,15L8,18L2,8Z" />
+        
+        <!-- Legs -->
+        <path
+            android:fillColor="@color/primary_dark"
+            android:pathData="M-3,25L-3,40L-1,40L-1,25Z" />
+        <path
+            android:fillColor="@color/primary_dark"
+            android:pathData="M1,25L1,40L3,40L3,25Z" />
+        
+        <!-- Hair -->
+        <path
+            android:fillColor="@color/primary"
+            android:pathData="M-8,-25C-8,-30 -4,-32 0,-32C4,-32 8,-30 8,-25L8,-20L0,-20L-8,-20Z" />
+    </group>
+
+    <!-- Heart Symbol -->
+    <group android:translateX="100" android:translateY="60">
+        <path
+            android:fillColor="@color/error_light"
+            android:pathData="M0,8C0,4 -4,0 0,-4C4,0 0,4 0,8Z" />
+    </group>
+
+    <!-- Water Droplets -->
+    <group android:translateX="50" android:translateY="50">
+        <path
+            android:fillColor="@color/secondary"
+            android:fillAlpha="0.6"
+            android:pathData="M0,0C-2,-4 -6,-4 -6,0C-6,2 -4,4 0,6C4,4 6,2 6,0C6,-4 2,-4 0,0Z" />
+    </group>
+
+    <group android:translateX="150" android:translateY="50">
+        <path
+            android:fillColor="@color/secondary"
+            android:fillAlpha="0.6"
+            android:pathData="M0,0C-2,-4 -6,-4 -6,0C-6,2 -4,4 0,6C4,4 6,2 6,0C6,-4 2,-4 0,0Z" />
+    </group>
+
+    <!-- Sparkles -->
+    <group android:translateX="80" android:translateY="40">
+        <path
+            android:fillColor="@color/accent_light"
+            android:pathData="M0,-4L2,-2L4,0L2,2L0,4L-2,2L-4,0L-2,-2Z" />
+    </group>
+
+    <group android:translateX="120" android:translateY="40">
+        <path
+            android:fillColor="@color/accent_light"
+            android:pathData="M0,-4L2,-2L4,0L2,2L0,4L-2,2L-4,0L-2,-2Z" />
+    </group>
+
+</vector>
+

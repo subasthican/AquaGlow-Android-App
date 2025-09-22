@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Water drop -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M12,2c-5.33,4.55 -8,8.48 -8,11.8 0,4.98 3.8,8.2 8,8.2s8,-3.22 8,-8.2c0,-3.32 -2.67,-7.25 -8,-11.8z"/>
+    
+    <!-- Water level -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M12,4c-3.87,3.3 -6,6.5 -6,9.8 0,3.3 2.2,5.2 6,5.2s6,-1.9 6,-5.2c0,-3.3 -2.13,-6.5 -6,-9.8z"/>
+    
+    <!-- Ripple effect -->
+    <path
+        android:fillColor="@color/accent"
+        android:fillAlpha="0.3"
+        android:pathData="M8,12c0,-2.21 1.79,-4 4,-4s4,1.79 4,4 -1.79,4 -4,4 -4,-1.79 -4,-4z"/>
+    
+    <!-- Notification bell -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.9,2 2,2zM18,16v-5c0,-3.07 -1.64,-5.64 -4.5,-6.32V4c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5v0.68C7.63,5.36 6,7.92 6,11v5l-2,2v1h16v-1l-2,-2z"/>
+</vector>
+

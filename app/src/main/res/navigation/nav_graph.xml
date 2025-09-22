@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/habitsFragment">
+
+    <fragment
+        android:id="@+id/habitsFragment"
+        android:name="com.example.aquaglow.HabitsFragment"
+        android:label="@string/nav_habits" />
+
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.example.aquaglow.MoodFragment"
+        android:label="@string/nav_mood" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.aquaglow.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.aquaglow.StatisticsFragment"
+        android:label="@string/stats_title" />
+
+</navigation>

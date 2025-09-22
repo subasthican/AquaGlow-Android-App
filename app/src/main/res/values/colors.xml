@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AquaGlow Rich Color Scheme (60:30:10) -->
+    <!-- Primary (60%) - Rich Ocean Blue -->
+    <color name="primary">#0F172A</color>
+    <color name="primary_dark">#1E293B</color>
+    <color name="primary_light">#334155</color>
+    <color name="primary_variant">#475569</color>
+    
+    <!-- Secondary (30%) - Vibrant Aqua Teal -->
+    <color name="secondary">#06B6D4</color>
+    <color name="secondary_dark">#0891B2</color>
+    <color name="secondary_light">#22D3EE</color>
+    <color name="secondary_variant">#67E8F9</color>
+    
+    <!-- Accent (10%) - Brilliant Glow Gold -->
+    <color name="accent">#F59E0B</color>
+    <color name="accent_dark">#D97706</color>
+    <color name="accent_light">#FCD34D</color>
+    <color name="accent_variant">#FDE68A</color>
+    
+    <!-- Extended Color Palette -->
+    <color name="ocean_deep">#0C4A6E</color>
+    <color name="ocean_medium">#0369A1</color>
+    <color name="ocean_light">#0EA5E9</color>
+    <color name="aqua_rich">#0D9488</color>
+    <color name="aqua_bright">#14B8A6</color>
+    <color name="gold_warm">#F59E0B</color>
+    <color name="gold_soft">#FBBF24</color>
+    
+    <!-- Neutral Colors - Enhanced -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_50">#F8FAFC</color>
+    <color name="gray_100">#F1F5F9</color>
+    <color name="gray_200">#E2E8F0</color>
+    <color name="gray_300">#CBD5E1</color>
+    <color name="gray_400">#94A3B8</color>
+    <color name="gray_500">#64748B</color>
+    <color name="gray_600">#475569</color>
+    <color name="gray_700">#334155</color>
+    <color name="gray_800">#1E293B</color>
+    <color name="gray_900">#0F172A</color>
+    
+    <!-- Status Colors - Enhanced -->
+    <color name="success">#10B981</color>
+    <color name="success_light">#34D399</color>
+    <color name="success_dark">#059669</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#FBBF24</color>
+    <color name="warning_dark">#D97706</color>
+    <color name="error">#EF4444</color>
+    <color name="error_light">#F87171</color>
+    <color name="error_dark">#DC2626</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_light">#60A5FA</color>
+    <color name="info_dark">#2563EB</color>
+    
+    <!-- Background Colors - Rich -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="background_dark">#0F172A</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#1E293B</color>
+    <color name="surface_variant_light">#F1F5F9</color>
+    <color name="surface_variant_dark">#334155</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#0F172A</color>
+    <color name="gradient_mid">#1E293B</color>
+    <color name="gradient_end">#334155</color>
+    
+    <!-- Card Colors -->
+    <color name="card_light">#FFFFFF</color>
+    <color name="card_dark">#1E293B</color>
+    <color name="card_elevated_light">#F8FAFC</color>
+    <color name="card_elevated_dark">#334155</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#0F172A</color>
+    <color name="text_primary_dark">#F8FAFC</color>
+    <color name="text_secondary_light">#475569</color>
+    <color name="text_secondary_dark">#CBD5E1</color>
+    <color name="text_tertiary_light">#64748B</color>
+    <color name="text_tertiary_dark">#94A3B8</color>
+    
+    <!-- Interactive Colors -->
+    <color name="ripple_light">#E2E8F0</color>
+    <color name="ripple_dark">#475569</color>
+    <color name="focus_light">#3B82F6</color>
+    <color name="focus_dark">#60A5FA</color>
+</resources>
