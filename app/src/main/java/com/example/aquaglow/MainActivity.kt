@@ -59,8 +59,8 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.selectedItemId = R.id.habitsFragment
         
         // Add navigation listener to update welcome text
-        bottomNavigationView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id) {
                 R.id.habitsFragment -> {
                     welcomeText.text = "Track your daily habits"
                     welcomeText.visibility = View.VISIBLE
@@ -78,7 +78,6 @@ class MainActivity : AppCompatActivity() {
                     welcomeText.visibility = View.VISIBLE
                 }
             }
-            true
         }
     }
     
