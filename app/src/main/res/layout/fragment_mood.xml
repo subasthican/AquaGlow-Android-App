@@ -9,117 +9,195 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="20dp">
 
-        <!-- Mood Selector Section with Enhanced Design -->
-        <androidx.cardview.widget.CardView
+        <!-- Header Section -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/surface_light">
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_mood"
+                app:tint="@color/secondary"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mood_question"
+                android:textColor="@color/text_primary_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Mood Selector -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/card_background"
+            android:padding="16dp"
+            android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/moodSelectorLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="24dp">
+                android:gravity="center">
 
-                <!-- Header with Icon -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:layout_marginBottom="20dp">
-
-                    <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:src="@drawable/ic_mood"
-                        android:tint="@color/secondary"
-                        android:layout_marginEnd="12dp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="How are you feeling today?"
-                        android:textColor="@color/text_primary_light"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/moodSelectorLayout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center" />
+                <!-- Mood buttons will be added programmatically in 2 rows -->
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-        <!-- Note Input Section -->
-        <androidx.cardview.widget.CardView
+        <!-- Date/Time Selection Section -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="4dp">
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_when_feeling"
+                android:textColor="@color/text_primary_light"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
-                    android:text="Add a note (optional)"
-                    android:textColor="@color/text_primary_light"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="What's on your mind?"
-                    app:boxBackgroundMode="outline"
-                    app:boxCornerRadiusTopStart="8dp"
-                    app:boxCornerRadiusTopEnd="8dp"
-                    app:boxCornerRadiusBottomStart="8dp"
-                    app:boxCornerRadiusBottomEnd="8dp"
-                    app:boxStrokeColor="@color/secondary"
-                    app:hintTextColor="@color/secondary">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/moodNoteInput"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textMultiLine"
-                        android:maxLines="3" />
-
-                </com.google.android.material.textfield.TextInputLayout>
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/saveMoodButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Save Mood"
-                    android:textColor="@color/white"
-                    app:backgroundTint="@color/secondary"
-                    app:cornerRadius="8dp" />
+                    android:id="@+id/selectDateButton"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/mood_select_date"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    app:icon="@drawable/ic_calendar"
+                    app:iconGravity="textStart"
+                    app:iconTint="@android:color/white"
+                    app:cornerRadius="8dp"
+                    app:backgroundTint="@color/primary"
+                    style="@style/Widget.Material3.Button" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/selectTimeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/mood_select_time"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    app:icon="@drawable/ic_time"
+                    app:iconGravity="textStart"
+                    app:iconTint="@android:color/white"
+                    app:cornerRadius="8dp"
+                    app:backgroundTint="@color/primary"
+                    style="@style/Widget.Material3.Button" />
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/selectedDateTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="@string/mood_current_datetime"
+                android:textColor="@color/primary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/card_background"
+                android:padding="8dp"
+                android:alpha="0.9" />
+
+        </LinearLayout>
+
+        <!-- Note Input Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_add_note_hint"
+                android:textColor="@color/text_primary_light"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/moodNoteInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="How are you feeling today?"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:background="@drawable/underline_input_background"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/saveMoodButton"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="@string/mood_save"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/secondary"
+                android:textColor="@color/white"
+                app:cornerRadius="28dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/shareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_share"
+                app:backgroundTint="@color/accent"
+                app:tint="@color/white" />
+
+        </LinearLayout>
 
         <!-- Mood History Section -->
         <LinearLayout
@@ -130,11 +208,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:text="Recent Moods"
+                android:text="@string/mood_recent"
                 android:textColor="@color/text_primary_light"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/moodRecyclerView"
@@ -145,16 +223,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <!-- Share FAB -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/shareButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:src="@drawable/ic_share"
-        app:backgroundTint="@color/accent"
-        app:tint="@color/white" />
 
 </ScrollView>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/widget_app_name"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widgetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_time"
+            android:textColor="@color/gray_600"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Habit Progress -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_todays_progress"
+            android:textColor="@color/text_primary_light"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/widgetProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:progressTint="@color/secondary"
+            android:progressBackgroundTint="@color/gray_200"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/widgetProgressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/widget_progress_percent"
+            android:textColor="@color/secondary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Quick Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <!-- Mood Button -->
+        <LinearLayout
+            android:id="@+id/widgetMoodButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/widget_button_background"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_mood_emoji"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_mood_label"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <!-- Steps Button -->
+        <LinearLayout
+            android:id="@+id/widgetStepsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/widget_button_background"
+            android:padding="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_steps_emoji"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/widgetStepsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_steps_count"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <!-- Hydration Button -->
+        <LinearLayout
+            android:id="@+id/widgetHydrationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/widget_button_background"
+            android:padding="8dp"
+            android:layout_marginStart="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_water_emoji"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/widgetWaterText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_water_count"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

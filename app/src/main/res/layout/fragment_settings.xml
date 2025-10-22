@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/background_light">
 
-    <LinearLayout
+    <!-- Back Button Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:title="Settings"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_back"
+        app:navigationIconTint="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
 
         <!-- Theme Settings -->
         <androidx.cardview.widget.CardView
@@ -67,8 +83,8 @@
                         android:id="@+id/themeSwitch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:thumbTint="@color/secondary"
-                        app:trackTint="@color/secondary" />
+                        app:thumbTint="@color/switch_thumb_color"
+                        app:trackTint="@color/switch_track_color" />
 
                 </LinearLayout>
 
@@ -117,6 +133,163 @@
 
         </androidx.cardview.widget.CardView>
 
+        <!-- Sensor Tracking -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/sensor_tracking"
+                    android:textColor="@color/text_primary_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/sensor_tracking_desc"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/sensorTrackingSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Enable Activity Tracking"
+                        android:textColor="@color/text_primary_light"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <!-- Step Goal Setting -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/daily_step_goal"
+                        android:textColor="@color/text_primary_light"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/stepGoalInput"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:text="10000"
+                        android:textAlignment="center"
+                        android:background="@drawable/underline_input_background"
+                        android:padding="8dp"
+                        android:textColor="@color/text_primary_light" />
+
+                </LinearLayout>
+
+                <!-- Activity Stats -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/primary_light"
+                    android:padding="12dp"
+                    android:visibility="gone"
+                    android:id="@+id/activityStatsLayout">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔴 Today's Activity (LIVE)"
+                        android:textColor="@color/text_primary_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/step_count"
+                            android:textColor="@color/text_secondary_light"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/stepCountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/secondary"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/shake_count"
+                            android:textColor="@color/text_secondary_light"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/shakeCountText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/secondary"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <!-- Data Management -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -143,11 +316,74 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/clearDataButton"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:text="Clear All Data"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/error"
+                    app:cornerRadius="28dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/testNotificationButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:text="🔔 Test Notifications"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/secondary"
+                    app:cornerRadius="28dp"
+                    app:icon="@drawable/ic_info"
+                    app:iconGravity="textStart" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/logoutButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Logout"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/secondary"
+                    app:cornerRadius="28dp"
+                    app:icon="@drawable/ic_lock"
+                    app:iconGravity="textStart" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Logs you out while keeping your account safe"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/deleteAccountButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Delete Account"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/error"
+                    app:cornerRadius="28dp"
+                    app:icon="@drawable/ic_delete"
+                    app:iconGravity="textStart"
+                    app:strokeColor="@color/error"
+                    app:strokeWidth="2dp" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="⚠️ Permanently deletes all your data"
                     android:textColor="@color/error"
-                    app:backgroundTint="@color/error_light"
-                    app:cornerRadius="8dp" />
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -238,9 +474,11 @@
                     android:id="@+id/aboutButton"
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:text="About AquaGlow"
                     android:textColor="@color/primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     app:icon="@drawable/ic_info"
                     app:iconGravity="textStart"
@@ -251,9 +489,11 @@
                     android:id="@+id/helpButton"
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:text="Help and Guide"
                     android:textColor="@color/primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     app:icon="@drawable/ic_help"
                     app:iconGravity="textStart"
@@ -264,6 +504,52 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
+        <!-- Theme Selection -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
 
-</ScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="App Theme"
+                    android:textColor="@color/text_primary_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="⚠️ Custom color themes coming soon!\nUse Dark Mode for now."
+                    android:textColor="@color/warning_dark"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+
+                <Spinner
+                    android:id="@+id/themeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_background"
+                    android:enabled="false"
+                    android:alpha="0.5" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -23,7 +23,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/circle_background"
             android:padding="12dp"
-            android:tint="@color/secondary" />
+            app:tint="@color/secondary" />
 
         <!-- Content -->
         <LinearLayout
@@ -36,7 +36,7 @@
                 android:id="@+id/helpTitleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Help Title"
+                android:text="@string/help_title"
                 android:textColor="@color/text_primary_light"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -46,7 +46,7 @@
                 android:id="@+id/helpDescriptionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Help description goes here..."
+                android:text="@string/help_description"
                 android:textColor="@color/text_secondary_light"
                 android:textSize="14sp"
                 android:lineSpacingExtra="2dp" />
@@ -56,4 +56,5 @@
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
+
 

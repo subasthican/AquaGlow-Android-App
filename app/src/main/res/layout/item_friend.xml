@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Friend Avatar -->
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/friend_avatar_background"
+            android:gravity="center"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/friendAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👤"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <!-- Friend Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/friendName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Friend Name"
+                    android:textColor="@color/text_primary_light"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/friendStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🟢"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/friendScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 1,250"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/friendStreak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔥 7 day streak"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/challengeFriendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Challenge"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/primary"
+                app:cornerRadius="12dp"
+                android:layout_marginBottom="4dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/removeFriendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:textSize="10sp"
+                android:textColor="@color/error"
+                app:backgroundTint="@color/surface_light"
+                app:cornerRadius="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

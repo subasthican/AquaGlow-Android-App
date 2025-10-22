@@ -66,6 +66,23 @@
         android:id="@+id/habitCategorySpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background" />
+
+    <!-- Priority Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Priority"
+        android:textColor="@color/text_primary_light"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/habitPrioritySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/spinner_background" />
 
 </LinearLayout>

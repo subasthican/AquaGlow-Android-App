@@ -35,6 +35,9 @@ class SplashActivity : AppCompatActivity() {
         // Start fade-in animation
         startFadeInAnimation()
         
+        // Setup glow effects
+        setupGlowEffects()
+        
         // Navigate after splash duration
         navigateAfterDelay()
     }
@@ -47,7 +50,7 @@ class SplashActivity : AppCompatActivity() {
         val appNameTextView = findViewById<TextView>(R.id.appNameTextView)
         
         // Set logo
-        logoImageView.setImageResource(R.drawable.ic_aquaglow_logo)
+        logoImageView.setImageResource(R.drawable.logo)
         
         // Set app name with AquaGlow branding
         appNameTextView.text = getString(R.string.app_name)
@@ -71,25 +74,57 @@ class SplashActivity : AppCompatActivity() {
     }
     
     /**
+     * Starts the fade-out animation before navigation
+     */
+    private fun startFadeOutAnimation() {
+        val logoImageView = findViewById<ImageView>(R.id.logoImageView)
+        val appNameTextView = findViewById<TextView>(R.id.appNameTextView)
+        
+        val fadeOut = AlphaAnimation(1.0f, 0.0f).apply {
+            duration = 500
+            fillAfter = true
+        }
+        
+        logoImageView.startAnimation(fadeOut)
+        appNameTextView.startAnimation(fadeOut)
+    }
+    
+    /**
      * Navigates to the appropriate activity after splash duration
      */
     private fun navigateAfterDelay() {
         Handler(Looper.getMainLooper()).postDelayed({
-            val isOnboardingCompleted = sharedPreferences.getBoolean("onboarding_completed", false)
+            // Start fade-out animation
+            startFadeOutAnimation()
             
-            val intent = if (isOnboardingCompleted) {
-                Intent(this, MainActivity::class.java)
-            } else {
-                Intent(this, OnboardingActivity::class.java)
-            }
-            
-            startActivity(intent)
-            finish()
-        }, splashDuration)
+            // Navigate after fade-out completes
+            Handler(Looper.getMainLooper()).postDelayed({
+                val isOnboardingCompleted = sharedPreferences.getBoolean("onboarding_completed", false)
+                val intent = when {
+                    !isOnboardingCompleted -> Intent(this, OnboardingActivity::class.java)
+                    AuthUtils.isLoggedIn(this) -> Intent(this, MainActivity::class.java)
+                    else -> Intent(this, LoginActivity::class.java)
+                }
+
+                startActivity(intent)
+                finish()
+            }, 500) // Wait for fade-out to complete
+        }, splashDuration - 500) // Start fade-out 500ms before navigation
+    }
+
+    private fun setupGlowEffects() {
+        val logoImageView = findViewById<ImageView>(R.id.logoImageView)
+        val appNameTextView = findViewById<TextView>(R.id.appNameTextView)
+        
+        // Add twinkling effect to logo
+        GlowAnimationUtils.createTwinkleEffect(logoImageView, 4000L)
+        
+        // Add breathing effect to app name
+        GlowAnimationUtils.createBreathingEffect(appNameTextView, 3000L)
     }
     
     companion object {
-        const val PREFS_NAME = "AquaGlowPrefs"
+        const val PREFS_NAME = "aquaglow_prefs"
         const val KEY_FIRST_RUN = "first_run"
     }
 }

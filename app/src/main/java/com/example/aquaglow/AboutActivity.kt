@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
 
@@ -16,10 +17,25 @@ class AboutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about)
+        
+        try {
+            setContentView(R.layout.activity_about)
 
-        initializeViews()
-        setupClickListeners()
+            initializeViews()
+            setupClickListeners()
+            setupBackPressedCallback()
+            
+            // Setup glow effects (wrap in try-catch to prevent crashes)
+            try {
+                setupGlowEffects()
+            } catch (e: Exception) {
+                android.util.Log.e("AboutActivity", "Failed to setup glow effects", e)
+            }
+        } catch (e: Exception) {
+            // If AboutActivity fails, just finish and go back
+            android.util.Log.e("AboutActivity", "Failed to create AboutActivity", e)
+            finish()
+        }
     }
 
     /**
@@ -40,9 +56,9 @@ class AboutActivity : AppCompatActivity() {
      * Set up click listeners for interactive elements
      */
     private fun setupClickListeners() {
-        // Back button
-        findViewById<MaterialButton>(R.id.backButton).setOnClickListener {
-            onBackPressed()
+        // Toolbar back button
+        findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar).setNavigationOnClickListener {
+            finish()
         }
 
         // Rate app button
@@ -124,12 +140,27 @@ class AboutActivity : AppCompatActivity() {
     }
 
     /**
-     * Handle back button press
+     * Set up back pressed callback for modern Android
      */
-    @Deprecated("Deprecated in Java")
-    override fun onBackPressed() {
-        super.onBackPressed()
-        finish()
+    private fun setupBackPressedCallback() {
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                finish()
+            }
+        })
+    }
+
+    private fun setupGlowEffects() {
+        try {
+            // Add breathing effect to version text (only if it exists)
+            findViewById<TextView>(R.id.versionTextView)?.let { versionTextView ->
+                GlowAnimationUtils.createBreathingEffect(versionTextView, 4000L)
+            }
+        } catch (e: Exception) {
+            // Silently fail - animations are not critical
+            android.util.Log.e("AboutActivity", "Failed to setup glow effects", e)
+        }
     }
 }
+
 

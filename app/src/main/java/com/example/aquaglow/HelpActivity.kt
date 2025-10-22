@@ -3,6 +3,7 @@ package com.example.aquaglow
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -18,10 +19,23 @@ class HelpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_help)
+        
+        try {
+            setContentView(R.layout.activity_help)
 
-        initializeViews()
-        setupHelpContent()
+            initializeViews()
+            setupHelpContent()
+            setupBackPressedCallback()
+            
+            try {
+                setupGlowEffects()
+            } catch (e: Exception) {
+                android.util.Log.e("HelpActivity", "Failed to setup glow effects", e)
+            }
+        } catch (e: Exception) {
+            android.util.Log.e("HelpActivity", "Failed to create HelpActivity", e)
+            finish()
+        }
     }
 
     /**
@@ -31,9 +45,9 @@ class HelpActivity : AppCompatActivity() {
         helpRecyclerView = findViewById(R.id.helpRecyclerView)
         helpRecyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Back button
-        findViewById<MaterialButton>(R.id.backButton).setOnClickListener {
-            onBackPressed()
+        // Toolbar back button
+        findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar).setNavigationOnClickListener {
+            finish()
         }
     }
 
@@ -89,12 +103,19 @@ class HelpActivity : AppCompatActivity() {
     }
 
     /**
-     * Handle back button press
+     * Set up back pressed callback for modern Android
      */
-    @Deprecated("Deprecated in Java")
-    override fun onBackPressed() {
-        super.onBackPressed()
-        finish()
+    private fun setupBackPressedCallback() {
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                finish()
+            }
+        })
+    }
+
+    private fun setupGlowEffects() {
+        // Add breathing effect to help recycler view
+        // GlowAnimationUtils.createBreathingEffect(helpRecyclerView, 4000L)
     }
 }
 
@@ -116,7 +137,7 @@ class HelpAdapter(private val helpItems: List<HelpItem>) :
     class HelpViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleTextView: TextView = itemView.findViewById(R.id.helpTitleTextView)
         val descriptionTextView: TextView = itemView.findViewById(R.id.helpDescriptionTextView)
-        val iconImageView: View = itemView.findViewById(R.id.helpIconImageView)
+        val iconImageView: android.widget.ImageView = itemView.findViewById(R.id.helpIconImageView)
     }
 
     override fun onCreateViewHolder(parent: android.view.ViewGroup, viewType: Int): HelpViewHolder {
@@ -129,9 +150,8 @@ class HelpAdapter(private val helpItems: List<HelpItem>) :
         val item = helpItems[position]
         holder.titleTextView.text = item.title
         holder.descriptionTextView.text = item.description
-        holder.iconImageView.setBackgroundResource(item.iconRes)
+        holder.iconImageView.setImageResource(item.iconRes)
     }
 
     override fun getItemCount(): Int = helpItems.size
 }
-

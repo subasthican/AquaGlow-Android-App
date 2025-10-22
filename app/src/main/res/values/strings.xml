@@ -53,6 +53,71 @@
     <string name="mood_angry">😠</string>
     <string name="mood_excited">🤩</string>
     
+    <!-- Welcome Screen -->
+    <string name="welcome_glad_here">We are glad you are here,</string>
+    <string name="welcome_user_name">Subasthican</string>
+    <string name="welcome_description">We will help you to capture moods and experiences through the language of emojis without any writing. Uncover patterns, delve into your feelings, and appreciate every moment, big or small.</string>
+    <string name="welcome_back_user">Welcome back, User! 👋</string>
+    <string name="ready_to_glow">Ready to glow today?</string>
+    
+    <!-- Name Input -->
+    <string name="what_should_we_call_you">What should we call you?</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="lets_begin">Let\'s Begin</string>
+    <string name="skip_for_now">Skip for now</string>
+    
+    <!-- Game -->
+    <string name="game_title">Game Title</string>
+    <string name="game_description">Game description goes here</string>
+    <string name="back_button">← Back</string>
+    <string name="points">Points</string>
+    <string name="time">Time</string>
+    <string name="start_game">Start Game</string>
+    <string name="pause">Pause</string>
+    
+    <!-- Content Descriptions -->
+    <string name="app_logo">AquaGlow app logo</string>
+    <string name="welcome_illustration">Welcome illustration</string>
+    <string name="woman_character">Woman character</string>
+    <string name="man_character">Man character</string>
+    <string name="share_icon">Share</string>
+    <string name="delete_icon">Delete</string>
+    <string name="edit_icon">Edit</string>
+    <string name="add_icon">Add</string>
+    <string name="back_icon">Back</string>
+    <string name="forward_icon">Forward</string>
+    <string name="help_icon">Help</string>
+    <string name="info_icon">Information</string>
+    <string name="settings_icon">Settings</string>
+    <string name="mood_icon">Mood</string>
+    <string name="habits_icon">Habits</string>
+    <string name="stats_icon">Statistics</string>
+    <string name="water_drop_icon">Water drop</string>
+    <string name="trending_up_icon">Trending up</string>
+    <string name="security_icon">Security</string>
+    <string name="star_icon">Star</string>
+    <string name="lock_icon">Lock</string>
+    <string name="email_icon">Email</string>
+    <string name="person_icon">Person</string>
+    <string name="group_icon">Group</string>
+    <string name="chevron_right_icon">Chevron right</string>
+    <string name="lightbulb_icon">Lightbulb</string>
+    <string name="bug_report_icon">Bug report</string>
+    
+    <!-- Widget -->
+    <string name="widget_app_name">AquaGlow</string>
+    <string name="widget_time">12:34</string>
+    <string name="widget_todays_progress">Today\'s Progress</string>
+    <string name="widget_progress_percent">0%</string>
+    <string name="widget_mood_emoji">😊</string>
+    <string name="widget_mood_label">Mood</string>
+    <string name="widget_steps_emoji">👟</string>
+    <string name="widget_steps_count">0</string>
+    <string name="widget_water_emoji">💧</string>
+    <string name="widget_water_label">Water</string>
+    <string name="widget_water_count">0ml</string>
+    
+    
     <!-- Settings -->
     <string name="settings_title">Settings</string>
     <string name="theme_settings">Theme</string>
@@ -86,10 +151,545 @@
     <!-- Welcome -->
     <string name="welcome_message_format">We are glad you are here, %1$s!</string>
     
+    <!-- Widget -->
+    <string name="widget_description">AquaGlow wellness widget showing habit progress, step count, and quick actions</string>
+    
+    <!-- Sensor Features -->
+    <string name="sensor_tracking">Activity Tracking</string>
+    <string name="sensor_tracking_desc">Track steps and detect shake gestures for mood logging</string>
+    <string name="step_count">Step Count</string>
+    <string name="shake_count">Shake Count</string>
+    <string name="daily_step_goal">Daily Step Goal</string>
+    <string name="step_milestone_title">Step Milestone!</string>
+    <string name="step_milestone_text">You\'ve reached %1$d steps! Great job staying active!</string>
+    <string name="mood_suggestion_title">How are you feeling?</string>
+    <string name="mood_suggestion_text">You shook your device - want to log your mood?</string>
+    
     <!-- General -->
     <string name="ok">OK</string>
     <string name="error">Error</string>
     <string name="success">Success</string>
     <string name="loading">Loading...</string>
     <string name="empty_state">No data available</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="continue_text">Continue</string>
+    <string name="resume">Resume</string>
+    
+    <!-- Navigation & Bottom Menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_track">Track</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_social">Social</string>
+    
+    <!-- Dashboard / Home -->
+    <string name="dashboard_title">Your Wellness Dashboard</string>
+    <string name="dashboard_welcome">Welcome to AquaGlow</string>
+    <string name="dashboard_greeting">Good Morning, User! 👋</string>
+    <string name="dashboard_track_progress">Track Your Daily Progress</string>
+    <string name="dashboard_today_summary">Today\'s Summary</string>
+    <string name="dashboard_habits_card">Daily Habits</string>
+    <string name="dashboard_habits_card_emoji">📋 Today\'s Habits</string>
+    <string name="dashboard_mood_card">Mood Tracker</string>
+    <string name="dashboard_mood_card_emoji">😊 Today\'s Mood</string>
+    <string name="dashboard_water_card">Hydration</string>
+    <string name="dashboard_water_card_emoji">💧 Water Intake</string>
+    <string name="dashboard_steps_card">Steps Today</string>
+    <string name="dashboard_steps_card_emoji">🚶 Steps Today</string>
+    <string name="dashboard_motivation_title">Daily Motivation</string>
+    <string name="dashboard_motivation_text">Every small step counts towards wellness 💪</string>
+    <string name="dashboard_wellness_score">Wellness Score: %1$d/100</string>
+    <string name="dashboard_streak">🔥 %1$d day streak</string>
+    <string name="dashboard_habits_progress">%1$d/%2$d Habits</string>
+    <string name="dashboard_water_progress">%1$d/%2$d glasses</string>
+    <string name="dashboard_steps_progress">%1$d / %2$d steps</string>
+    <string name="dashboard_mood_status">😊 %1$s</string>
+    
+    <!-- Track Fragment -->
+    <string name="track_title">Track</string>
+    <string name="track_habits_tab">Habits</string>
+    <string name="track_mood_tab">Mood</string>
+    <string name="track_hydration_tab">Hydration</string>
+    
+    <!-- Hydration -->
+    <string name="hydration_title">Hydration Tracker</string>
+    <string name="hydration_today">Today\'s Water Intake</string>
+    <string name="hydration_goal">Daily Goal</string>
+    <string name="hydration_progress">Water Progress</string>
+    <string name="hydration_glasses">glasses</string>
+    <string name="hydration_add_one">+1 Glass</string>
+    <string name="hydration_add_two">+2 Glasses</string>
+    <string name="hydration_add_custom">Custom Amount</string>
+    <string name="hydration_reset">Reset Today</string>
+    <string name="hydration_history">Hydration History</string>
+    <string name="hydration_empty">No water logged today</string>
+    <string name="hydration_reset_confirm">Reset today\'s water intake?</string>
+    <string name="hydration_reset_success">Water intake reset</string>
+    <string name="hydration_added">✓ Added water! 💧</string>
+    <string name="hydration_custom_title">Custom Amount</string>
+    <string name="hydration_custom_hint">Enter number of glasses</string>
+    
+    <!-- Social -->
+    <string name="social_title">Social and Challenges</string>
+    <string name="social_add_friend">+ Add Friend</string>
+    <string name="social_friends_icon">👥</string>
+    <string name="social_friends_count">0</string>
+    <string name="social_friends_label">Friends</string>
+    <string name="social_challenges_icon">🏆</string>
+    <string name="social_challenges_count">0</string>
+    <string name="social_challenges_label">Challenges</string>
+    <string name="social_rank_icon">🥇</string>
+    <string name="social_rank_number">#1</string>
+    <string name="social_rank_label">Rank</string>
+    <string name="social_active_challenges">Active Challenges</string>
+    <string name="social_friends_section">Friends</string>
+    <string name="social_no_friends_icon">👥</string>
+    <string name="social_no_friends_title">No Friends Yet</string>
+    <string name="social_no_friends_desc">Add friends to start competing and sharing your wellness journey!</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_goals">Goals</string>
+    <string name="profile_analytics">Analytics</string>
+    <string name="profile_quizzes">Quizzes</string>
+    <string name="profile_games">Games</string>
+    <string name="profile_health_metrics">Health Metrics</string>
+    <string name="profile_about">About</string>
+    <string name="profile_help">Help</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_delete_account">Delete Account</string>
+    <string name="profile_edit">Edit Profile</string>
+    
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_username_title">Edit Username</string>
+    <string name="edit_username_message">Enter your new username (2-50 characters, letters and spaces only)</string>
+    <string name="edit_username_hint">New username</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_message">Enter your current password and new password (minimum 6 characters)</string>
+    <string name="current_password_hint">Current password</string>
+    <string name="new_password_hint">New password</string>
+    <string name="confirm_new_password_hint">Confirm new password</string>
+    <string name="username_updated">Username updated successfully!</string>
+    <string name="password_updated">Password changed successfully!</string>
+    <string name="invalid_username">Invalid username. Use 2-50 characters, letters and spaces only.</string>
+    <string name="invalid_password">Password must be at least 6 characters.</string>
+    <string name="incorrect_current_password">Current password is incorrect.</string>
+    <string name="passwords_dont_match">New passwords don\'t match.</string>
+    <string name="edit_profile_error">Failed to update profile. Please try again.</string>
+    <string name="change_password_option">Change Password</string>
+    <string name="change_username_option">Change Username</string>
+    
+    <!-- Settings (Additional) -->
+    <string name="settings_activity_tracking">Activity Tracking</string>
+    <string name="settings_enable_activity">Enable Activity Tracking</string>
+    <string name="settings_activity_desc">Track steps and shake gestures</string>
+    <string name="settings_today_activity">Today\'s Activity</string>
+    <string name="settings_today_activity_live">🔴 Today\'s Activity (LIVE)</string>
+    <string name="settings_steps">Steps: %1$d</string>
+    <string name="settings_shakes">Shakes: %1$d</string>
+    <string name="settings_app_theme">App Theme</string>
+    <string name="settings_theme_warning">⚠️ Custom color themes coming soon!\nUse Dark Mode for now.</string>
+    <string name="settings_theme_coming_soon">⚠️ Custom themes coming soon! For now, use Dark Mode toggle.</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_hydration_reminder_title">Hydration Reminders</string>
+    <string name="settings_hydration_interval_label">Reminder Interval</string>
+    <string name="settings_test_notifications">🔔 Test Notifications</string>
+    <string name="settings_logout_btn">Logout</string>
+    <string name="settings_logout_desc">Logs you out while keeping your account safe</string>
+    <string name="settings_delete_account_btn">Delete Account</string>
+    <string name="settings_delete_account_warning">⚠️ Permanently deletes all your data</string>
+    <string name="settings_activity_enabled">Activity tracking enabled</string>
+    <string name="settings_activity_disabled">Activity tracking disabled</string>
+    <string name="settings_activity_permission_required">Permission required for activity tracking</string>
+    <string name="settings_hydration_set">Hydration reminder set to %1$s</string>
+    <string name="settings_test_hydration">Test: Hydration notification sent!</string>
+    <string name="settings_test_step">Test: Step milestone notification sent!</string>
+    <string name="settings_test_shake">Test: Shake mood notification sent!</string>
+    <string name="settings_test_achievement">Test: Achievement notification sent!</string>
+    <string name="settings_step_goal_updated">Step goal updated to %1$d</string>
+    <string name="settings_invalid_step_goal">Invalid step goal</string>
+    
+    <!-- Logout & Account -->
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logout_keep_account">Logout (Keep Account)</string>
+    <string name="logout_delete_account">Logout &amp; Delete Account</string>
+    <string name="logout_success">Logged out. You can login again with same credentials.</string>
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_message">⚠️ This will permanently delete your account and ALL data. This cannot be undone!\n\nAre you absolutely sure?</string>
+    <string name="delete_account_success">Account deleted. All data cleared.</string>
+    <string name="clear_data_success">✓ All data cleared!\n✓ You\'re still logged in\n✓ Activity tracking disabled</string>
+    <string name="clear_data_title">Clearing Data...</string>
+    <string name="clear_data_wait">Please wait...</string>
+    <string name="clear_data_error">Error clearing data: %1$s</string>
+    
+    <!-- Authentication -->
+    <string name="auth_login_title">Login</string>
+    <string name="auth_register_title">Register</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_name">Name</string>
+    <string name="auth_login_btn">Login</string>
+    <string name="auth_register_btn">Register</string>
+    <string name="auth_forgot_password">Forgot Password?</string>
+    <string name="auth_agree_terms">Please agree to terms and conditions</string>
+    <string name="auth_account_created">Account created successfully!</string>
+    <string name="auth_account_exists">Account already exists. Please log in.</string>
+    <string name="auth_reset_link_sent">Reset link sent to %1$s</string>
+    
+    <!-- Games -->
+    <string name="game_memory_title">Memory Game</string>
+    <string name="game_puzzle_title">Puzzle Slider</string>
+    <string name="game_mindfulness_title">Mindfulness Walk</string>
+    <string name="game_coming_soon">%1$s coming soon!</string>
+    <string name="game_watch_sequence">Watch the sequence carefully!</string>
+    <string name="game_repeat_sequence">Now repeat the sequence!</string>
+    <string name="game_correct">Correct! Next sequence...</string>
+    <string name="game_wrong">Wrong! Try again...</string>
+    <string name="game_over">Game Over! You completed %1$d sequences</string>
+    <string name="game_final_score">Final Score: %1$d points</string>
+    <string name="game_sequence_count">Sequences: %1$d</string>
+    <string name="game_watch_colors">Watch the sequence... (%1$d colors)</string>
+    <string name="game_score">Score: %1$d</string>
+    <string name="game_time_format">%1$02d:%2$02d</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_count">%1$d/%2$d</string>
+    <string name="achievements_wellness_score">Wellness Score</string>
+    <string name="achievements_score_format">%1$d/100</string>
+    <string name="achievements_unlocked">🏆</string>
+    <string name="achievements_locked">🔒</string>
+    <string name="achievements_status_unlocked">Unlocked</string>
+    <string name="achievements_status_locked">Locked</string>
+    <string name="achievements_progress">%1$d/%2$d</string>
+    
+    <!-- Habits (Additional) -->
+    <string name="habits_today_progress">Today\'s Progress</string>
+    <string name="habits_progress_percent">%1$d%%</string>
+    <string name="habits_completion_count">%1$d/%2$d habits completed</string>
+    <string name="habits_empty">No habits yet</string>
+    <string name="habits_empty_desc">Create your first habit to start your wellness journey!</string>
+    
+    <!-- Statistics (Additional) -->
+    <string name="stats_wellness_insights">Your Wellness Insights</string>
+    <string name="stats_mood_trend">Weekly Mood Trend</string>
+    <string name="stats_step_count">Step Count</string>
+    <string name="stats_step_count_live">🔴 Step Count (LIVE)</string>
+    <string name="stats_shake_count">Shake Count</string>
+    <string name="stats_shake_count_live">🔴 Shake Count (LIVE)</string>
+    <string name="stats_wellness_summary">Wellness Summary</string>
+    <string name="stats_step_goal_format">/ %1$d</string>
+    <string name="stats_no_data">No data yet</string>
+    <string name="stats_wellness_tips_content">• Track your mood daily to identify patterns\n• Practice gratitude to improve overall well-being\n• Stay hydrated for better mental clarity\n• Get enough sleep for emotional stability\n• Exercise regularly to boost your mood</string>
+    
+    <!-- Terms & Help -->
+    <string name="terms_title">Terms of Service</string>
+    <string name="terms_back">← Back</string>
+    <string name="terms_content">Terms of Service content...</string>
+    <string name="help_title">Help Title</string>
+    <string name="help_description">Help description goes here...</string>
+    
+    <!-- Mood (Additional) -->
+    <string name="mood_saved">Mood saved! 😊</string>
+    <string name="mood_select_emoji">Select your mood</string>
+    <string name="mood_add_note">Add a note (optional)</string>
+    
+    <!-- Goals -->
+    <string name="goals_title">Goals</string>
+    <string name="goals_weekly">Weekly Goals</string>
+    <string name="goals_daily">Daily Goals</string>
+    <string name="goals_add">Add Goal</string>
+    <string name="goals_edit">Edit Goal</string>
+    
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_overview">Overview</string>
+    <string name="analytics_trends">Trends</string>
+    
+    <!-- Quizzes -->
+    <string name="quizzes_title">Wellness Quizzes</string>
+    <string name="quizzes_start">Start Quiz</string>
+    <string name="quizzes_coming_soon">Quizzes coming soon!</string>
+    
+    <!-- Health Metrics -->
+    <string name="health_metrics_title">Health Metrics</string>
+    <string name="health_metrics_add_title">Add Health Metric</string>
+    <string name="health_metrics_add">Add Metric</string>
+    <string name="health_metrics_track">Track Metrics</string>
+    
+    <!-- Insights -->
+    <string name="insights_title">Insights</string>
+    <string name="insights_statistics">Statistics</string>
+    <string name="insights_achievements">Achievements</string>
+    <string name="insights_analytics">Analytics</string>
+    
+    <!-- Misc -->
+    <string name="test_button">Test Button</string>
+    <string name="zero">0</string>
+    <string name="zero_percent">0%</string>
+    <string name="emoji_water">💧</string>
+    <string name="emoji_check">✓</string>
+    <string name="emoji_warning">⚠️</string>
+    <string name="emoji_happy">😊</string>
+    <string name="emoji_trophy">🏆</string>
+    <string name="emoji_lock">🔒</string>
+    <string name="emoji_friends">👥</string>
+    <string name="emoji_medal">🥇</string>
+    
+    <!-- Calendar -->
+    <string name="calendar_title">Wellness Calendar</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="calendar_monthly_summary">Monthly Summary</string>
+    <string name="calendar_daily_log">Daily Log</string>
+    <string name="calendar_no_data">No activity on this day</string>
+    <string name="calendar_tap_date">Tap a date to view daily log</string>
+    <string name="calendar_habit_completion">Habit Completion</string>
+    <string name="calendar_average_mood">Average Mood</string>
+    <string name="calendar_total_water">Total Water</string>
+    <string name="calendar_longest_streak">Longest Streak</string>
+    <string name="calendar_current_streak">Current Streak</string>
+    <string name="calendar_days">days</string>
+    <string name="calendar_glasses">glasses</string>
+    <string name="calendar_date_format">%1$s, %2$s</string>
+    <string name="calendar_habits_completed">Habits Completed</string>
+    <string name="calendar_mood_recorded">Mood Recorded</string>
+    <string name="calendar_water_intake">Water Intake</string>
+    <string name="calendar_notes">Notes</string>
+    <string name="calendar_add_log">Add Log</string>
+    <string name="calendar_edit_log">Edit Log</string>
+    <string name="calendar_no_habits">No habits tracked</string>
+    <string name="calendar_no_mood">No mood logged</string>
+    <string name="calendar_no_water">No water logged</string>
+    <string name="calendar_no_notes">No notes</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_legend">Legend:</string>
+    <string name="calendar_legend_complete">Complete</string>
+    <string name="calendar_legend_partial">Partial</string>
+    <string name="calendar_legend_missed">Missed</string>
+    <string name="calendar_legend_achievement">Achievement</string>
+    <string name="calendar_this_month">This Month</string>
+    <string name="calendar_prev_month">Previous Month</string>
+    <string name="calendar_next_month">Next Month</string>
+    <string name="calendar_select_date">Select Date</string>
+    <string name="calendar_view_details">View Details</string>
+    
+    <!-- About Activity -->
+    <string name="about_app_name">AquaGlow</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_title">About AquaGlow</string>
+    <string name="about_description">AquaGlow is your personal wellness companion designed to help you build healthy habits, track your mood, and stay hydrated. Our app combines beautiful design with powerful features to support your journey towards better mental and physical health.</string>
+    <string name="about_key_features">Key Features</string>
+    <string name="about_habit_tracking">Daily Habit Tracking</string>
+    <string name="about_mood_journal">Mood Journal with Emojis</string>
+    <string name="about_hydration_reminders">Hydration Reminders</string>
+    <string name="about_analytics">Weekly Mood Analytics</string>
+    <string name="about_rate_app">Rate AquaGlow</string>
+    <string name="about_share_friends">Share with Friends</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_terms_service">Terms of Service</string>
+    <string name="about_contact_support">Contact Support</string>
+    <string name="about_made_with_love">Made with ❤️ by AquaGlow Team</string>
+    
+    <!-- Hydration Fragment -->
+    <string name="hydration_daily_title">Daily Hydration</string>
+    <string name="hydration_goal_text">Goal: 8 glasses (2L) - Tap to customize</string>
+    <string name="hydration_enter_water">Enter Water Level</string>
+    <string name="hydration_add_water">Add Water</string>
+    <string name="hydration_quick_add">Quick Add Cups</string>
+    <string name="hydration_customize">Customize</string>
+    <string name="hydration_200ml">200ml</string>
+    <string name="hydration_300ml">300ml</string>
+    <string name="hydration_500ml">500ml</string>
+    <string name="hydration_reminders_title">🔔 Hydration Reminders</string>
+    <string name="hydration_test">Test</string>
+    <string name="hydration_start">Start</string>
+    <string name="hydration_remind_every">Remind me every:</string>
+    <string name="hydration_30_minutes">30</string>
+    <string name="hydration_minutes">Minutes</string>
+    <string name="hydration_reminders_off">Reminders are off</string>
+    <string name="hydration_today_history">Today\'s History</string>
+    <string name="hydration_reset_button">Reset</string>
+    
+    <!-- Steps Fragment -->
+    <string name="steps_title">🚶 Steps and Activity</string>
+    <string name="steps_set_goal">Set Goal</string>
+    <string name="steps_today">👟 Today\'s Steps</string>
+    <string name="steps_count_zero">0</string>
+    <string name="steps_progress_zero">0%</string>
+    <string name="steps_goal_text">Goal: 10000 steps</string>
+    <string name="steps_remaining">10000 steps remaining</string>
+    <string name="steps_shake_count">📱 Shake Count</string>
+    <string name="steps_shake_zero">0</string>
+    <string name="steps_shake_instruction">Shake your phone to count!</string>
+    <string name="steps_activity_stats">📊 Activity Stats</string>
+    <string name="steps_emoji">🏃‍♂️</string>
+    <string name="steps_label">Steps</string>
+    <string name="steps_phone_emoji">📱</string>
+    <string name="steps_shakes_label">Shakes</string>
+    <string name="steps_reset_today">Reset Today</string>
+    
+    <!-- Mood Fragment -->
+    <string name="mood_question">How are you feeling?</string>
+    <string name="mood_when_feeling">📅 When did you feel this way?</string>
+    <string name="mood_select_date">Select Date</string>
+    <string name="mood_select_time">Select Time</string>
+    <string name="mood_current_datetime">Using current date and time</string>
+    <string name="mood_add_note_hint">Add a note (optional)</string>
+    <string name="mood_save">Save Mood</string>
+    <string name="mood_recent">Recent Moods</string>
+    
+    <!-- Profile Fragment -->
+    <string name="profile_user_icon">👤</string>
+    <string name="profile_user_name">User Name</string>
+    <string name="profile_user_email">user@email.com</string>
+    <string name="profile_settings_icon">⚙️</string>
+    <string name="profile_settings_desc">App preferences &amp; configuration</string>
+    <string name="profile_arrow_right">›</string>
+    <string name="profile_community_icon">👥</string>
+    <string name="profile_community_title">Community</string>
+    <string name="profile_community_desc">Connect with friends and share your wellness journey</string>
+    <string name="profile_arrow_right_big">></string>
+    <string name="profile_games_icon">🎮</string>
+    <string name="profile_games_desc">Mindfulness mini-games</string>
+    <string name="profile_quizzes_icon">❓</string>
+    <string name="profile_quizzes_desc">Wellness assessments</string>
+    <string name="profile_about_icon">ℹ️</string>
+    <string name="profile_help_icon">💬</string>
+    <string name="profile_help_title">Help &amp; Support</string>
+    
+    <!-- Dashboard Fragment -->
+    <string name="dashboard_wellness_score_default">Wellness Score: 85/100</string>
+    <string name="dashboard_streak_default">🔥 7 day streak</string>
+    <string name="dashboard_habits_progress_default">3/4 Habits</string>
+    <string name="dashboard_mood_status_default">😊 Happy</string>
+    <string name="dashboard_water_progress_default">6/8 glasses</string>
+    <string name="dashboard_steps_progress_default">4,500 / 10,000 steps</string>
+    
+    <!-- Loading Overlay -->
+    <string name="loading_text">Loading...</string>
+    
+    <!-- Placeholder Game -->
+    <string name="placeholder_game_icon">🎮</string>
+    <string name="placeholder_game_title">Game Title</string>
+    <string name="placeholder_game_desc">This game is coming soon!</string>
+    <string name="placeholder_game_back">Back to Games</string>
+    
+    <!-- Social Fragment -->
+    <string name="social_discover_nearby">📡 Discover Nearby Friends</string>
+    <string name="social_friends_zero">0</string>
+    <string name="social_challenges_zero">0</string>
+    
+    <!-- Habit Dialog -->
+    <string name="habit_reminder_enable">Enable Reminder</string>
+    <string name="habit_reminder_time">Time:</string>
+    <string name="habit_reminder_default_time">9:00 AM</string>
+    <string name="habit_reminder_repeat">Repeat on:</string>
+    <string name="habit_reminder_mon">Mon</string>
+    <string name="habit_reminder_tue">Tue</string>
+    <string name="habit_reminder_wed">Wed</string>
+    <string name="habit_reminder_thu">Thu</string>
+    <string name="habit_reminder_fri">Fri</string>
+    <string name="habit_reminder_sat">Sat</string>
+    <string name="habit_reminder_sun">Sun</string>
+    
+    <!-- Habit Item -->
+    <string name="habit_item_default_name">Drink 8 glasses of water</string>
+    <string name="habit_item_default_desc">Stay hydrated throughout the day</string>
+    <string name="habit_item_category_health">Health</string>
+    <string name="habit_item_priority_high">High</string>
+    <string name="habit_item_streak">🔥 5 days</string>
+    <string name="habit_item_progress">📊 80%</string>
+    <string name="habit_item_not_done">⏳ Not Done</string>
+    <string name="habit_item_reminder">🔔 9:00 AM</string>
+    <string name="habit_item_created">Created: Dec 20</string>
+    
+    <!-- Habit Dialog Add -->
+    <string name="habit_add_category">Category</string>
+    <string name="habit_add_priority">Priority</string>
+    
+    <!-- Habit History Item -->
+    <string name="habit_history_completed">✓</string>
+    <string name="habit_history_default_name">Drink Water</string>
+    <string name="habit_history_status">Completed</string>
+    <string name="habit_history_time">2:30 PM</string>
+    <string name="habit_history_date">Today</string>
+    
+    <!-- Mood Entry Item -->
+    <string name="mood_entry_emoji">😊</string>
+    <string name="mood_entry_name">Happy</string>
+    <string name="mood_entry_datetime">Dec 20, 14:30</string>
+    <string name="mood_entry_note">Feeling great today!</string>
+    
+    <!-- Nearby Friends -->
+    <string name="nearby_connect_desc">Connect with AquaGlow users nearby via Bluetooth</string>
+    <string name="nearby_start_scanning">Start Scanning</string>
+    <string name="nearby_stop">Stop</string>
+    <string name="nearby_instruction">Tap \'Start Scanning\' to find nearby AquaGlow users</string>
+    <string name="nearby_scan_icon">📡</string>
+    <string name="nearby_no_users">No nearby users yet</string>
+    <string name="nearby_scan_instruction">Start scanning to discover friends nearby</string>
+    <string name="nearby_users_title">Nearby Users</string>
+    <string name="nearby_no_users_found">No users found nearby. Make sure your friend is also scanning.</string>
+    <string name="nearby_connected_title">Connected Users</string>
+    <string name="nearby_no_connected">No connected users yet. Connect with someone nearby to start!</string>
+    
+    <!-- Connected User Item -->
+    <string name="connected_user_name">User Name</string>
+    <string name="connected_user_loading">Loading stats...</string>
+    <string name="connected_user_add_friend">Add Friend</string>
+    <string name="connected_user_disconnect">Disconnect</string>
+    
+    <!-- Nearby User Item -->
+    <string name="nearby_user_name">User Name</string>
+    <string name="nearby_user_connect">Connect</string>
+    
+    <!-- Health Metric Dialog -->
+    <string name="health_metric_name">Metric Name</string>
+    <string name="health_metric_value">0.0 unit</string>
+    <string name="health_metric_category">Category: General</string>
+    <string name="health_metric_recorded">Recorded: Today</string>
+    <string name="health_metric_notes">Notes:</string>
+    <string name="health_metric_no_notes">No notes</string>
+    <string name="health_metric_add_desc">Add a new health metric to track</string>
+    <string name="health_metric_unit">Unit</string>
+    <string name="health_metric_category_label">Category</string>
+    
+    <!-- Game Item -->
+    <string name="game_item_icon">🎮</string>
+    <string name="game_item_title">Game Title</string>
+    <string name="game_item_desc">Game description</string>
+    <string name="game_item_play">Play</string>
+    <string name="game_item_difficulty">Easy</string>
+    <string name="game_item_duration">⏱️ 2 min</string>
+    <string name="game_item_points">⭐ 20 pts</string>
+    <string name="game_item_tip">💡 Improves focus and concentration</string>
+    <string name="game_item_progress">75%</string>
+    
+    <!-- Quiz Activity -->
+    <string name="quiz_question_format">Question 1 of 10</string>
+    <string name="quiz_sample_question">What is the recommended amount of sleep for adults?</string>
+    <string name="quiz_option_format">Option %1$d</string>
+    <string name="quiz_previous">Previous</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_submit">Submit Quiz</string>
+    
+    <!-- Daily Log Dialog -->
+    <string name="daily_log_mood_emoji">😊</string>
+    <string name="daily_log_activity">Activity</string>
+    
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_content">Privacy Policy content...</string>
+    
+    <!-- Statistics Fragment -->
+    <string name="stats_average_mood">Average Mood</string>
+    <string name="stats_total_moods">Total Moods</string>
+    <string name="stats_count_zero">0</string>
+    
 </resources>

@@ -70,6 +70,20 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
+                <!-- Priority Indicator -->
+                <TextView
+                    android:id="@+id/habitPriorityText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/priority_chip_background"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:text="High"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
                 <!-- Completion Status Indicator -->
                 <View
                     android:id="@+id/completionIndicator"
@@ -78,6 +92,73 @@
                     android:layout_marginStart="8dp"
                     android:background="@drawable/completion_indicator"
                     android:visibility="gone" />
+
+            </LinearLayout>
+
+            <!-- Additional Details Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- Streak Info -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/streakText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔥 5 days"
+                        android:textColor="@color/text_secondary_light"
+                        android:textSize="12sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:id="@+id/completionRateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📊 80%"
+                        android:textColor="@color/text_secondary_light"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <!-- Status Text -->
+                <TextView
+                    android:id="@+id/statusText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⏳ Not Done"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <!-- Reminder Info -->
+                <TextView
+                    android:id="@+id/reminderText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔔 9:00 AM"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <!-- Creation Date -->
+                <TextView
+                    android:id="@+id/createdAtText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Created: Dec 20"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="10sp" />
 
             </LinearLayout>
 
@@ -90,6 +171,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
 
+            <!-- Reminder Button -->
+            <ImageButton
+                android:id="@+id/reminderHabitButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_secondary_background"
+                android:src="@drawable/ic_notifications"
+                app:tint="@color/primary"
+                android:padding="8dp" />
+
             <!-- Edit Button -->
             <ImageButton
                 android:id="@+id/editHabitButton"
@@ -98,7 +190,7 @@
                 android:layout_marginEnd="8dp"
                 android:background="@drawable/button_secondary_background"
                 android:src="@drawable/ic_edit"
-                android:tint="@color/secondary"
+                app:tint="@color/secondary"
                 android:padding="8dp" />
 
             <!-- Delete Button -->
@@ -108,7 +200,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/button_secondary_background"
                 android:src="@drawable/ic_delete"
-                android:tint="@color/error"
+                app:tint="@color/error"
                 android:padding="8dp" />
 
         </LinearLayout>

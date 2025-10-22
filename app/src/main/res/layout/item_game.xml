@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Game Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/gameIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="🎮"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:background="@drawable/game_icon_background"
+                android:layout_marginEnd="16dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gameTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Game Title"
+                    android:textColor="@color/text_primary_light"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+
+                <TextView
+                    android:id="@+id/gameDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Game description"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="13sp"
+                    android:layout_marginTop="4dp"
+                    android:maxLines="2"
+                    android:ellipsize="end" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/playGameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="12dp"
+                app:backgroundTint="@color/secondary"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+        <!-- Game Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/gameDifficulty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Easy"
+                android:textColor="@color/secondary"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="@drawable/difficulty_badge_background"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/gameDuration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="⏱️ 2 min"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/gamePoints"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="⭐ 20 pts"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="12sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Wellness Benefit -->
+        <TextView
+            android:id="@+id/wellnessBenefit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💡 Improves focus and concentration"
+            android:textColor="@color/primary_light"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Progress Bar (if game has been played) -->
+        <LinearLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/gameProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:progressTint="@color/secondary"
+                android:progressBackgroundTint="@color/gray_200"
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/gameProgressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="75%"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

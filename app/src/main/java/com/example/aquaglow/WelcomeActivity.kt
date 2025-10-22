@@ -7,6 +7,7 @@ import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
 
@@ -35,6 +36,8 @@ class WelcomeActivity : AppCompatActivity() {
         loadUserName()
         setupListeners()
         applyAnimations()
+        setupBackPressedCallback()
+        setupGlowEffects()
     }
 
     /**
@@ -71,7 +74,7 @@ class WelcomeActivity : AppCompatActivity() {
      */
     private fun setupListeners() {
         backButton.setOnClickListener {
-            onBackPressed()
+            onBackPressedDispatcher.onBackPressed()
         }
 
         letsBeginButton.setOnClickListener {
@@ -80,16 +83,14 @@ class WelcomeActivity : AppCompatActivity() {
 
         // Terms of Use link
         termsText.setOnClickListener {
-            // TODO: Implement terms of use dialog or web view
-            // For now, just show a toast
-            android.widget.Toast.makeText(this, "Terms of Use", android.widget.Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, TermsOfServiceActivity::class.java)
+            startActivity(intent)
         }
 
         // Privacy Policy link
         privacyText.setOnClickListener {
-            // TODO: Implement privacy policy dialog or web view
-            // For now, just show a toast
-            android.widget.Toast.makeText(this, "Privacy Policy", android.widget.Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, PrivacyPolicyActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -122,13 +123,35 @@ class WelcomeActivity : AppCompatActivity() {
     }
 
     /**
-     * Handle back button press
+     * Set up back pressed callback for modern Android
      */
-    @Deprecated("Deprecated in Java")
-    override fun onBackPressed() {
-        // Go back to name input screen
-        val intent = Intent(this, NameInputActivity::class.java)
-        startActivity(intent)
-        finish()
+    private fun setupBackPressedCallback() {
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Go back to name input screen
+                val intent = Intent(this@WelcomeActivity, NameInputActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+        })
+    }
+
+    private fun setupGlowEffects() {
+        // Add breathing effect to welcome text
+        GlowAnimationUtils.createBreathingEffect(welcomeText, 4000L)
+        GlowAnimationUtils.createBreathingEffect(userNameText, 4500L)
+        
+        // Add glow movement to description
+        GlowAnimationUtils.createBreathingEffect(descriptionText, 4000L)
+        
+        // Add twinkling effect to illustration
+        GlowAnimationUtils.createTwinkleEffect(welcomeIllustration, 5000L)
+        
+        // Add pulse effect to terms and privacy links
+        GlowAnimationUtils.createPulseEffect(termsText, 3000L)
+        GlowAnimationUtils.createPulseEffect(privacyText, 3500L)
+        
+        // Apply material glow effects to button
+        GlowAnimationUtils.applyMaterialGlow(letsBeginButton)
     }
 }

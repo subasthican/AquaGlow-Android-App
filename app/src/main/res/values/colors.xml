@@ -1,91 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- AquaGlow Rich Color Scheme (60:30:10) -->
-    <!-- Primary (60%) - Rich Ocean Blue -->
-    <color name="primary">#0F172A</color>
-    <color name="primary_dark">#1E293B</color>
-    <color name="primary_light">#334155</color>
-    <color name="primary_variant">#475569</color>
+    <!-- AquaGlow Premium Color Scheme - Apple Inspired -->
+    <!-- Primary (60%) - Deep Space Blue -->
+    <color name="primary">#1A1A2E</color>
+    <color name="primary_dark">#16213E</color>
+    <color name="primary_light">#0F3460</color>
+    <color name="primary_variant">#533A7B</color>
     
-    <!-- Secondary (30%) - Vibrant Aqua Teal -->
-    <color name="secondary">#06B6D4</color>
-    <color name="secondary_dark">#0891B2</color>
-    <color name="secondary_light">#22D3EE</color>
-    <color name="secondary_variant">#67E8F9</color>
+    <!-- Secondary (30%) - Premium Aqua -->
+    <color name="secondary">#00D4AA</color>
+    <color name="secondary_dark">#00B894</color>
+    <color name="secondary_light">#00E5C8</color>
+    <color name="secondary_variant">#4DD4B0</color>
     
-    <!-- Accent (10%) - Brilliant Glow Gold -->
-    <color name="accent">#F59E0B</color>
-    <color name="accent_dark">#D97706</color>
-    <color name="accent_light">#FCD34D</color>
-    <color name="accent_variant">#FDE68A</color>
+    <!-- Accent (10%) - Warm Gold -->
+    <color name="accent">#FFD700</color>
+    <color name="accent_dark">#FFC107</color>
+    <color name="accent_light">#FFE082</color>
+    <color name="accent_variant">#FFF59D</color>
     
-    <!-- Extended Color Palette -->
-    <color name="ocean_deep">#0C4A6E</color>
-    <color name="ocean_medium">#0369A1</color>
-    <color name="ocean_light">#0EA5E9</color>
-    <color name="aqua_rich">#0D9488</color>
-    <color name="aqua_bright">#14B8A6</color>
-    <color name="gold_warm">#F59E0B</color>
-    <color name="gold_soft">#FBBF24</color>
+    <!-- Extended Color Palette - Premium -->
+    <color name="ocean_deep">#0A1628</color>
+    <color name="ocean_medium">#1E3A8A</color>
+    <color name="ocean_light">#3B82F6</color>
+    <color name="aqua_rich">#00A896</color>
+    <color name="aqua_bright">#00D4AA</color>
+    <color name="gold_warm">#FFD700</color>
+    <color name="gold_soft">#FFE082</color>
     
-    <!-- Neutral Colors - Enhanced -->
+    <!-- Premium Neutral Colors - Apple Style -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="gray_50">#F8FAFC</color>
-    <color name="gray_100">#F1F5F9</color>
-    <color name="gray_200">#E2E8F0</color>
-    <color name="gray_300">#CBD5E1</color>
-    <color name="gray_400">#94A3B8</color>
-    <color name="gray_500">#64748B</color>
-    <color name="gray_600">#475569</color>
-    <color name="gray_700">#334155</color>
-    <color name="gray_800">#1E293B</color>
-    <color name="gray_900">#0F172A</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
     
-    <!-- Status Colors - Enhanced -->
-    <color name="success">#10B981</color>
-    <color name="success_light">#34D399</color>
-    <color name="success_dark">#059669</color>
-    <color name="warning">#F59E0B</color>
-    <color name="warning_light">#FBBF24</color>
-    <color name="warning_dark">#D97706</color>
-    <color name="error">#EF4444</color>
-    <color name="error_light">#F87171</color>
-    <color name="error_dark">#DC2626</color>
-    <color name="info">#3B82F6</color>
-    <color name="info_light">#60A5FA</color>
-    <color name="info_dark">#2563EB</color>
+    <!-- Status Colors - Premium Apple Style -->
+    <color name="success">#00D4AA</color>
+    <color name="success_light">#4DD4B0</color>
+    <color name="success_dark">#00A896</color>
+    <color name="warning">#FFD700</color>
+    <color name="warning_light">#FFE082</color>
+    <color name="warning_dark">#FFC107</color>
+    <color name="error">#FF5722</color>
+    <color name="error_light">#FF8A65</color>
+    <color name="error_dark">#E64A19</color>
+    <color name="info">#2196F3</color>
+    <color name="info_light">#64B5F6</color>
+    <color name="info_dark">#1976D2</color>
     
-    <!-- Background Colors - Rich -->
-    <color name="background_light">#F8FAFC</color>
-    <color name="background_dark">#0F172A</color>
+    <!-- Background Colors - Premium Apple Style -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#1A1A2E</color>
     <color name="surface_light">#FFFFFF</color>
-    <color name="surface_dark">#1E293B</color>
-    <color name="surface_variant_light">#F1F5F9</color>
-    <color name="surface_variant_dark">#334155</color>
+    <color name="surface_dark">#16213E</color>
+    <color name="surface_variant_light">#F5F5F5</color>
+    <color name="surface_variant_dark">#0F3460</color>
     
-    <!-- Gradient Colors -->
-    <color name="gradient_start">#0F172A</color>
-    <color name="gradient_mid">#1E293B</color>
-    <color name="gradient_end">#334155</color>
+    <!-- Premium Gradient Colors -->
+    <color name="gradient_start">#1A1A2E</color>
+    <color name="gradient_mid">#16213E</color>
+    <color name="gradient_end">#0F3460</color>
     
-    <!-- Card Colors -->
+    <!-- Card Colors - Apple Style -->
     <color name="card_light">#FFFFFF</color>
-    <color name="card_dark">#1E293B</color>
-    <color name="card_elevated_light">#F8FAFC</color>
-    <color name="card_elevated_dark">#334155</color>
+    <color name="card_dark">#16213E</color>
+    <color name="card_elevated_light">#FAFAFA</color>
+    <color name="card_elevated_dark">#0F3460</color>
     
-    <!-- Text Colors -->
-    <color name="text_primary_light">#0F172A</color>
-    <color name="text_primary_dark">#F8FAFC</color>
-    <color name="text_secondary_light">#475569</color>
-    <color name="text_secondary_dark">#CBD5E1</color>
-    <color name="text_tertiary_light">#64748B</color>
-    <color name="text_tertiary_dark">#94A3B8</color>
+    <!-- Text Colors - Premium Typography -->
+    <color name="text_primary_light">#212121</color>
+    <color name="text_primary_dark">#FAFAFA</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_secondary_dark">#BDBDBD</color>
+    <color name="text_tertiary_light">#9E9E9E</color>
+    <color name="text_tertiary_dark">#757575</color>
     
-    <!-- Interactive Colors -->
-    <color name="ripple_light">#E2E8F0</color>
-    <color name="ripple_dark">#475569</color>
-    <color name="focus_light">#3B82F6</color>
-    <color name="focus_dark">#60A5FA</color>
+    <!-- Interactive Colors - Apple Style -->
+    <color name="ripple_light">#EEEEEE</color>
+    <color name="ripple_dark">#424242</color>
+    <color name="focus_light">#2196F3</color>
+    <color name="focus_dark">#64B5F6</color>
+    
+    <!-- Premium Additional Colors -->
+    <color name="premium_blue">#1E3A8A</color>
+    <color name="premium_teal">#00D4AA</color>
+    <color name="premium_purple">#7C3AED</color>
+    <color name="premium_pink">#EC4899</color>
+    <color name="premium_orange">#F97316</color>
+    <color name="premium_emerald">#10B981</color>
+    
+    <!-- Glass Effect Colors -->
+    <color name="glass_light">#80FFFFFF</color>
+    <color name="glass_dark">#80000000</color>
+    <color name="glass_primary">#8000D4AA</color>
+    
+    <!-- Shadow Colors -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_dark">#1AFFFFFF</color>
+    <color name="shadow_primary">#1A00D4AA</color>
+    
+    <!-- Default Color Aliases (Theme-aware versions in themes.xml) -->
+    <color name="background">@color/background_light</color>
+    <color name="surface">@color/surface_light</color>
+    <color name="text_primary">@color/text_primary_light</color>
+    <color name="text_secondary">@color/text_secondary_light</color>
+    
+    <!-- Loading Overlay -->
+    <color name="loading_overlay_background">#80000000</color>
 </resources>

@@ -66,17 +66,46 @@
 
         </LinearLayout>
 
-        <!-- Share Button -->
-        <ImageButton
-            android:id="@+id/shareMoodButton"
+        <!-- Action Buttons -->
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/ic_share"
-            android:tint="@color/secondary" />
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/editMoodButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Edit mood"
+                android:src="@drawable/ic_edit"
+                app:tint="@color/primary" />
+
+            <ImageButton
+                android:id="@+id/deleteMoodButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Delete mood"
+                android:src="@drawable/ic_delete"
+                app:tint="@color/error" />
+
+            <ImageButton
+                android:id="@+id/shareMoodButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/share_mood"
+                android:src="@drawable/ic_share"
+                app:tint="@color/secondary" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
+
 

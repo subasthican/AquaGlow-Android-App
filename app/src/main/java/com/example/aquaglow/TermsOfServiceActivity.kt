@@ -2,6 +2,7 @@ package com.example.aquaglow
 
 import android.os.Bundle
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
 
@@ -16,15 +17,17 @@ class TermsOfServiceActivity : AppCompatActivity() {
 
         initializeViews()
         setupContent()
+        setupBackPressedCallback()
+        setupGlowEffects()
     }
 
     /**
      * Initialize all UI views
      */
     private fun initializeViews() {
-        // Back button
-        findViewById<MaterialButton>(R.id.backButton).setOnClickListener {
-            onBackPressed()
+        // Toolbar back button
+        findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar).setNavigationOnClickListener {
+            finish()
         }
     }
 
@@ -123,12 +126,22 @@ class TermsOfServiceActivity : AppCompatActivity() {
     }
 
     /**
-     * Handle back button press
+     * Set up back pressed callback for modern Android
      */
-    @Deprecated("Deprecated in Java")
-    override fun onBackPressed() {
-        super.onBackPressed()
-        finish()
+    private fun setupBackPressedCallback() {
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                finish()
+            }
+        })
+    }
+
+    private fun setupGlowEffects() {
+        // Add breathing effect to back button
+        val backButton = findViewById<MaterialButton>(R.id.backButton)
+        GlowAnimationUtils.createBreathingEffect(backButton, 4000L)
+        GlowAnimationUtils.applyMaterialGlow(backButton)
     }
 }
+
 

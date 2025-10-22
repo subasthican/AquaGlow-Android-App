@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Reminder Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enable Reminder"
+            android:textColor="@color/text_primary_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/reminderToggleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <!-- Time Selection -->
+    <LinearLayout
+        android:id="@+id/timeSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textColor="@color/text_primary_light"
+            android:textSize="16sp"
+            android:layout_marginEnd="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/timePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:00 AM"
+            android:textSize="14sp"
+            app:cornerRadius="8dp"
+            app:backgroundTint="@color/primary"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <!-- Days Selection -->
+    <LinearLayout
+        android:id="@+id/daysSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat on:"
+            android:textColor="@color/text_primary_light"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mondayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mon"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tuesdayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tue"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/wednesdayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wed"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/thursdayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/fridayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fri"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/saturdayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/sundayChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sun"
+                android:layout_marginEnd="4dp"
+                style="@style/Widget.Material3.Chip.Filter" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Custom Message -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/messageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Custom Message (Optional)"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxStrokeColor="@color/secondary"
+        app:hintTextColor="@color/secondary"
+        android:visibility="gone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/reminderMessageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

@@ -3,9 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Permissions for notifications and system features -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />232
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    
+    <!-- Sensor permissions -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    
+    <!-- Bluetooth permissions for Nearby Connections -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
 
     <application
         android:name=".AquaGlowApplication"
@@ -38,6 +55,20 @@
             <!-- Name Input Activity -->
             <activity
                 android:name=".NameInputActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+
+            <!-- Auth Activities -->
+            <activity
+                android:name=".RegisterActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".LoginActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".ForgotPasswordActivity"
                 android:exported="false"
                 android:theme="@style/Theme.AquaGlow" />
 
@@ -76,6 +107,84 @@
                 android:name=".TermsOfServiceActivity"
                 android:exported="false"
                 android:theme="@style/Theme.AquaGlow" />
+
+            <!-- Game Activities -->
+            <activity
+                android:name=".BaseGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".MemoryGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".ReflexGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".BreathingGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".MeditationGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".PuzzleGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".FitnessGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            <activity
+                android:name=".MindfulnessGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            
+            <!-- Blink Game Activity -->
+            <activity
+                android:name=".BlinkGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            
+            <!-- Placeholder Game Activity -->
+            <activity
+                android:name=".PlaceholderGameActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+            
+            <!-- Quiz Activity -->
+            <activity
+                android:name=".QuizActivity"
+                android:exported="false"
+                android:theme="@style/Theme.AquaGlow" />
+        
+        <!-- Step Counter Service -->
+        <service
+            android:name=".StepCounterService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+        
+        <!-- Hydration Reminder Service -->
+        <service
+            android:name=".HydrationReminderService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+        
+        <!-- Widget Provider -->
+        <receiver
+            android:name=".AquaGlowWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/aquaglow_widget_info" />
+        </receiver>
         
         <!-- WorkManager for hydration reminders -->
         <provider
@@ -87,6 +196,24 @@
                 android:name="androidx.work.WorkManagerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        
+        <!-- Hydration Notification Receiver -->
+        <receiver
+            android:name=".HydrationNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.aquaglow.ADD_WATER" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Habit Notification Receiver -->
+        <receiver
+            android:name=".HabitNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.aquaglow.MARK_HABIT_COMPLETE" />
+            </intent-filter>
+        </receiver>
         
     </application>
 

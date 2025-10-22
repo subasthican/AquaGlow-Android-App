@@ -49,6 +49,21 @@ dependencies {
     implementation(libs.androidx.work)
     implementation(libs.mpandroidchart)
     implementation("com.google.code.gson:gson:2.10.1")
+    
+    // Sensor integration
+    implementation("androidx.lifecycle:lifecycle-service:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    
+    // Widget support
+    implementation("androidx.glance:glance-appwidget:1.0.0")
+    
+    // Nearby Connections API for P2P Bluetooth/WiFi
+    implementation("com.google.android.gms:play-services-nearby:19.0.0")
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -37,7 +37,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/primary"
             android:orientation="vertical"
             android:padding="24dp">
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="We are glad you are here,"
+                android:text="@string/welcome_glad_here"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:text="Subasthican"
+                android:text="@string/welcome_user_name"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
                 android:lineSpacingExtra="4dp"
-                android:text="We will help you to capture moods and experiences through the language of emojis without any writing. Uncover patterns, delve into your feelings, and appreciate every moment, big or small."
+                android:text="@string/welcome_description"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -108,7 +108,7 @@
                         android:layout_marginEnd="8dp"
                         android:src="@drawable/ic_group"
                         android:contentDescription="Group icon"
-                        android:tint="@color/white" />
+                        app:tint="@color/white" />
 
                     <TextView
                         android:id="@+id/privacyText"
@@ -143,7 +143,8 @@
                     android:layout_weight="1"
                     android:text="&lt; BACK"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
                     app:rippleColor="@color/white" />
 
                 <!-- Let's Begin Button -->
@@ -154,15 +155,15 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:text="Let's Begin"
-                    android:textColor="@color/primary"
-                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     app:backgroundTint="@color/secondary"
-                    app:cornerRadius="8dp"
+                    app:cornerRadius="28dp"
                     app:icon="@drawable/ic_arrow_forward"
                     app:iconGravity="textEnd"
                     app:iconPadding="8dp"
-                    app:iconTint="@color/primary"
+                    app:iconTint="@color/white"
                     app:rippleColor="@color/secondary_light"
                     style="@style/Widget.Material3.Button" />
 
@@ -178,4 +179,5 @@
     </LinearLayout>
 
 </ScrollView>
+
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Achievement Icon -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/achievement_icon_background"
+            android:gravity="center"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/achievementIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎯"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <!-- Achievement Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/achievementTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievement Title"
+                android:textColor="@color/text_primary_light"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/achievementDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievement description"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Progress Bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ProgressBar
+                    android:id="@+id/achievementProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="6dp"
+                    android:layout_weight="1"
+                    android:progressTint="@color/secondary"
+                    android:progressBackgroundTint="@color/gray_200"
+                    android:max="100" />
+
+                <TextView
+                    android:id="@+id/achievementProgressText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="0/100"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Status Indicator -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/achievementStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔒"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/achievementStatusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Locked"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="10sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

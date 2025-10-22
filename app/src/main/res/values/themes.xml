@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.AquaGlow" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- AquaGlow Rich Light Theme -->
+        <!-- AquaGlow Premium Light Theme - Apple Inspired -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -21,17 +21,35 @@
         <item name="colorError">@color/error</item>
         <item name="colorOnError">@color/white</item>
         
-        <!-- Status bar -->
+        <!-- Status bar - Premium -->
         <item name="android:statusBarColor">@color/primary</item>
         <item name="android:windowLightStatusBar">false</item>
         
-        <!-- Navigation bar -->
+        <!-- Navigation bar - Premium -->
         <item name="android:navigationBarColor">@color/primary</item>
-        <item name="android:windowLightNavigationBar">false</item>
+        <!-- windowLightNavigationBar requires API 27+ -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        
+        <!-- Material 3 specific -->
+        <item name="colorSurfaceVariant">@color/surface_variant_light</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_light</item>
+        <item name="colorOutline">@color/gray_300</item>
+        <item name="colorOutlineVariant">@color/gray_200</item>
+        
+        <!-- Typography -->
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="android:textColorTertiary">@color/text_tertiary_light</item>
     </style>
 
     <style name="Theme.AquaGlow" parent="Base.Theme.AquaGlow" />
     
+    <!-- Circle overlay for ShapeableImageView -->
+    <style name="ShapeAppearanceOverlay.AquaGlow.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
     <!-- Splash Screen Theme -->
     <style name="Theme.AquaGlow.Splash" parent="Theme.AquaGlow">
         <item name="android:windowBackground">@drawable/splash_background</item>

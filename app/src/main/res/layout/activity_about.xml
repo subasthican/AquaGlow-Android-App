@@ -12,37 +12,17 @@
         android:padding="24dp">
 
         <!-- Header Section -->
-        <LinearLayout
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="32dp">
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
+            app:title="About AquaGlow"
+            app:titleTextColor="@android:color/white"
+            app:navigationIcon="@drawable/ic_back"
+            app:navigationIconTint="@android:color/white"
+            android:layout_marginBottom="32dp" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/backButton"
-                style="@style/Widget.Material3.Button.TextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="← Back"
-                android:textColor="@color/primary"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="About AquaGlow"
-                android:textAlignment="center"
-                android:textColor="@color/text_primary_light"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <View
-                android:layout_width="60dp"
-                android:layout_height="1dp" />
-
-        </LinearLayout>
 
         <!-- App Icon and Name -->
         <LinearLayout
@@ -53,26 +33,25 @@
             android:layout_marginBottom="32dp">
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_launcher_foreground"
-                android:background="@drawable/circle_background"
-                android:padding="16dp"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerInside"
                 android:layout_marginBottom="16dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="AquaGlow"
+                android:text="@string/about_app_name"
                 android:textColor="@color/text_primary_light"
-                android:textSize="28sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/versionTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Version 1.0.0"
+                android:text="@string/about_version"
                 android:textColor="@color/text_secondary_light"
                 android:textSize="16sp"
                 android:layout_marginTop="8dp" />
@@ -97,7 +76,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="About AquaGlow"
+                    android:text="@string/about_title"
                     android:textColor="@color/text_primary_light"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -106,7 +85,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="AquaGlow is your personal wellness companion designed to help you build healthy habits, track your mood, and stay hydrated. Our app combines beautiful design with powerful features to support your journey towards better mental and physical health."
+                    android:text="@string/about_description"
                     android:textColor="@color/text_secondary_light"
                     android:textSize="16sp"
                     android:lineSpacingExtra="4dp" />
@@ -133,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Key Features"
+                    android:text="@string/about_key_features"
                     android:textColor="@color/text_primary_light"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -151,14 +130,14 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_habits"
-                        android:tint="@color/secondary"
+                        app:tint="@color/secondary"
                         android:layout_marginEnd="12dp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Daily Habit Tracking"
+                        android:text="@string/about_habit_tracking"
                         android:textColor="@color/text_primary_light"
                         android:textSize="16sp" />
 
@@ -176,14 +155,14 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_mood"
-                        android:tint="@color/secondary"
+                        app:tint="@color/secondary"
                         android:layout_marginEnd="12dp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Mood Journal with Emojis"
+                        android:text="@string/about_mood_journal"
                         android:textColor="@color/text_primary_light"
                         android:textSize="16sp" />
 
@@ -201,14 +180,14 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_water_drop"
-                        android:tint="@color/secondary"
+                        app:tint="@color/secondary"
                         android:layout_marginEnd="12dp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Hydration Reminders"
+                        android:text="@string/about_hydration_reminders"
                         android:textColor="@color/text_primary_light"
                         android:textSize="16sp" />
 
@@ -225,14 +204,14 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_stats_nav"
-                        android:tint="@color/secondary"
+                        app:tint="@color/secondary"
                         android:layout_marginEnd="12dp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Weekly Mood Analytics"
+                        android:text="@string/about_analytics"
                         android:textColor="@color/text_primary_light"
                         android:textSize="16sp" />
 
@@ -253,11 +232,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginBottom="12dp"
-                android:text="Rate AquaGlow"
-                android:textSize="16sp"
+                android:text="@string/about_rate_app"
+                android:textColor="@color/white"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/secondary"
-                app:cornerRadius="16dp"
+                app:cornerRadius="28dp"
                 app:icon="@drawable/ic_star"
                 app:iconGravity="textStart"
                 app:iconPadding="8dp"
@@ -269,11 +249,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginBottom="12dp"
-                android:text="Share with Friends"
-                android:textSize="16sp"
+                android:text="@string/about_share_friends"
+                android:textColor="@color/white"
+                android:textSize="18sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/primary"
-                app:cornerRadius="16dp"
+                app:backgroundTint="@color/secondary"
+                app:cornerRadius="28dp"
                 app:icon="@drawable/ic_share"
                 app:iconGravity="textStart"
                 app:iconPadding="8dp"
@@ -285,27 +266,30 @@
                 style="@style/Widget.Material3.Button.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:text="Privacy Policy"
+                android:text="@string/about_privacy_policy"
                 android:textColor="@color/primary"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/termsOfServiceButton"
                 style="@style/Widget.Material3.Button.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:text="Terms of Service"
+                android:text="@string/about_terms_service"
                 android:textColor="@color/primary"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/contactSupportButton"
                 style="@style/Widget.Material3.Button.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:text="Contact Support"
+                android:text="@string/about_contact_support"
                 android:textColor="@color/primary"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -314,7 +298,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Made with ❤️ by AquaGlow Team"
+            android:text="@string/about_made_with_love"
             android:textAlignment="center"
             android:textColor="@color/text_tertiary_light"
             android:textSize="14sp" />
@@ -322,4 +306,5 @@
     </LinearLayout>
 
 </ScrollView>
+
 

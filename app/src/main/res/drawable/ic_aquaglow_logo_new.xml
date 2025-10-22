@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Water droplet at top -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,20 Q85,35 100,60 Q115,35 100,20 Z" />
+    
+    <!-- Water droplet glow effect -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M100,20 Q85,35 100,60 Q115,35 100,20 Z"
+        android:alpha="0.3" />
+    
+    <!-- AquaGlow text (simplified) -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M20,75 L25,75 L25,85 L30,85 L30,75 L35,75 L35,90 L30,90 L30,95 L25,95 L25,90 L20,90 Z" />
+    
+    <!-- Letter 'q' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M40,75 Q40,80 45,80 L50,80 L50,85 L45,85 Q40,85 40,90 L40,95 L55,95 L55,90 L50,90 L50,75 Z" />
+    
+    <!-- Letter 'u' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M60,75 L60,90 Q60,95 65,95 L70,95 Q75,95 75,90 L75,75 L70,75 L70,90 L65,90 L65,75 Z" />
+    
+    <!-- Letter 'a' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M80,90 Q80,95 85,95 L90,95 Q95,95 95,90 L95,85 L90,85 L90,90 L85,90 L85,80 L90,80 L90,75 L85,75 Q80,75 80,80 Z" />
+    
+    <!-- Letter 'G' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,75 Q100,70 105,70 L115,70 Q120,70 120,75 L120,85 Q120,90 115,90 L110,90 L110,85 L115,85 L115,75 L105,75 L105,90 Q100,90 100,85 Z" />
+    
+    <!-- Letter 'l' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M125,70 L125,95 L130,95 L130,70 Z" />
+    
+    <!-- Letter 'o' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M135,80 Q135,75 140,75 L150,75 Q155,75 155,80 L155,90 Q155,95 150,95 L140,95 Q135,95 135,90 Z" />
+    
+    <!-- Letter 'w' -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M160,90 L160,75 L165,75 L165,85 L170,75 L175,75 L175,85 L180,75 L185,75 L185,90 L180,90 L180,80 L175,90 L170,90 L170,80 L165,90 Z" />
+    
+    <!-- Water surface with ripples -->
+    <path
+        android:fillColor="@color/primary_light"
+        android:pathData="M0,100 L200,100 L200,120 L0,120 Z" />
+    
+    <!-- Ripple 1 -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,100 Q95,105 100,110 Q105,105 100,100 Z"
+        android:alpha="0.6" />
+    
+    <!-- Ripple 2 -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,100 Q90,110 100,120 Q110,110 100,100 Z"
+        android:alpha="0.4" />
+    
+    <!-- Ripple 3 -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,100 Q85,115 100,130 Q115,115 100,100 Z"
+        android:alpha="0.2" />
+    
+    <!-- Water splash particles -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M85,105 A2,2 0 1,1 85.01,105 Z"
+        android:alpha="0.8" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M115,108 A1.5,1.5 0 1,1 115.01,108 Z"
+        android:alpha="0.6" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M90,110 A1,1 0 1,1 90.01,110 Z"
+        android:alpha="0.7" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M110,112 A1.2,1.2 0 1,1 110.01,112 Z"
+        android:alpha="0.5" />
+
+</vector>

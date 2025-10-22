@@ -28,19 +28,34 @@ class OnboardingActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboarding)
         
-        // Initialize SharedPreferences
-        sharedPreferences = getSharedPreferences(SplashActivity.PREFS_NAME, MODE_PRIVATE)
-        
-        // Initialize views
-        initializeViews()
-        
-        // Setup ViewPager
-        setupViewPager()
-        
-        // Setup button listeners
-        setupButtonListeners()
+        try {
+            setContentView(R.layout.activity_onboarding)
+            
+            // Initialize SharedPreferences
+            sharedPreferences = getSharedPreferences(SplashActivity.PREFS_NAME, MODE_PRIVATE)
+            
+            // Initialize views
+            initializeViews()
+            
+            // Setup ViewPager
+            setupViewPager()
+            
+            // Setup button listeners
+            setupButtonListeners()
+            
+            // Setup glow effects (wrap in try-catch to prevent crashes)
+            try {
+                setupGlowEffects()
+            } catch (e: Exception) {
+                // Animation errors shouldn't crash the app
+                e.printStackTrace()
+            }
+        } catch (e: Exception) {
+            // If onboarding fails, skip directly to login
+            e.printStackTrace()
+            navigateToMainActivity()
+        }
     }
     
     /**
@@ -112,12 +127,39 @@ class OnboardingActivity : AppCompatActivity() {
     }
     
     /**
-     * Navigates to NameInputActivity for user personalization
+     * Navigates to LoginActivity first after onboarding
      */
     private fun navigateToMainActivity() {
-        // Navigate to NameInputActivity
-        val intent = Intent(this, NameInputActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()
+    }
+
+    private fun setupGlowEffects() {
+        try {
+            // Add glow movement to buttons (only if views are properly initialized)
+            if (::skipButton.isInitialized) {
+                GlowAnimationUtils.createBreathingEffect(skipButton, 4000L)
+                GlowAnimationUtils.applyMaterialGlow(skipButton)
+            }
+            
+            if (::nextButton.isInitialized) {
+                GlowAnimationUtils.createBreathingEffect(nextButton, 4000L)
+                GlowAnimationUtils.applyMaterialGlow(nextButton)
+            }
+            
+            if (::getStartedButton.isInitialized) {
+                GlowAnimationUtils.createBreathingEffect(getStartedButton, 4000L)
+                GlowAnimationUtils.applyMaterialGlow(getStartedButton)
+            }
+            
+            // Add breathing effect to tab layout
+            if (::tabLayout.isInitialized) {
+                GlowAnimationUtils.createBreathingEffect(tabLayout, 4000L)
+            }
+        } catch (e: Exception) {
+            // Silently fail - animations are not critical
+            android.util.Log.e("OnboardingActivity", "Failed to setup glow effects", e)
+        }
     }
 }

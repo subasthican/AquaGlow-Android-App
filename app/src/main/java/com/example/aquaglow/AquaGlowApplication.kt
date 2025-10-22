@@ -23,25 +23,47 @@ class AquaGlowApplication : Application() {
         super.onCreate()
         INSTANCE = this
         
-        // Initialize performance monitoring
-        PerformanceMonitor.startMonitoring()
-        
-        // Initialize DataCache
-        DataCache.initialize(this)
-        
-        // Schedule habit reset task (WorkManager is auto-initialized)
-        WorkManagerUtils.scheduleHabitReset(this)
-        
-        // Log memory usage
-        PerformanceMonitor.logMemoryUsage("App Start")
+        try {
+            // Initialize performance monitoring
+            PerformanceMonitor.startMonitoring()
+            
+            // Initialize DataCache
+            DataCache.initialize(this)
+            
+            // Schedule background tasks (with error handling)
+            try {
+                WorkManagerUtils.scheduleHabitReset(this)
+            } catch (e: Exception) {
+                e.printStackTrace()
+                // WorkManager errors shouldn't crash the app
+            }
+            
+            try {
+                WorkManagerUtils.scheduleStepCountReset(this)
+            } catch (e: Exception) {
+                e.printStackTrace()
+                // WorkManager errors shouldn't crash the app
+            }
+            
+            // Log memory usage
+            PerformanceMonitor.logMemoryUsage("App Start")
+        } catch (e: Exception) {
+            e.printStackTrace()
+            // App initialization errors shouldn't crash the app
+        }
     }
     
     
     override fun onLowMemory() {
         super.onLowMemory()
-        // Clear caches when memory is low
-        DataCache.clearCache()
-        ImageUtils.clearCache()
-        PerformanceMonitor.logMemoryUsage("Low Memory")
+        try {
+            // Clear caches when memory is low
+            DataCache.clearCache()
+            ImageUtils.clearCache()
+            PerformanceMonitor.logMemoryUsage("Low Memory")
+        } catch (e: Exception) {
+            e.printStackTrace()
+            // Memory cleanup errors shouldn't crash the app
+        }
     }
 }

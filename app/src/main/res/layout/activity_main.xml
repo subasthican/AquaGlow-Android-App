@@ -5,37 +5,28 @@
     android:layout_height="match_parent"
     android:background="@color/background_light">
 
-    <!-- Welcome Header with Enhanced Design -->
+    <!-- Compact Welcome Header -->
     <LinearLayout
         android:id="@+id/headerLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/gradient_background"
         android:orientation="vertical"
-        android:padding="32dp"
-        android:paddingTop="48dp"
+        android:padding="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <!-- App Logo/Icon -->
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
-            android:src="@drawable/ic_launcher_foreground"
-            android:background="@drawable/circle_background"
-            android:padding="12dp" />
 
         <TextView
             android:id="@+id/welcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Welcome back, User! 👋"
+            android:text="@string/welcome_back_user"
             android:textColor="@color/white"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:shadowColor="#80000000"
             android:shadowDx="2"
@@ -47,8 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:text="Ready to glow today?"
+            android:layout_marginTop="4dp"
+            android:text="@string/ready_to_glow"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:alpha="0.9" />
@@ -76,6 +67,7 @@
             app:itemIconTint="@color/bottom_nav_item_color"
             app:itemTextColor="@color/bottom_nav_item_color"
             app:itemRippleColor="@color/ripple_light"
+            app:labelVisibilityMode="labeled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

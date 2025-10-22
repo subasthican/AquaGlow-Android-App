@@ -69,3 +69,4 @@ class OnboardingAdapter(private val activity: OnboardingActivity) :
     )
 }
 
+

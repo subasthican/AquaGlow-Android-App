@@ -5,10 +5,12 @@
 -->
 <data-extraction-rules>
     <cloud-backup>
-        <!-- TODO: Use <include> and <exclude> to control what is backed up.
-        <include .../>
-        <exclude .../>
-        -->
+        <!-- Exclude sensitive auth data from backup -->
+        <exclude domain="sharedpref" path="aquaglow_prefs" subpath="auth_"/>
+        <exclude domain="sharedpref" path="aquaglow_prefs" subpath="user_password"/>
+        <exclude domain="sharedpref" path="aquaglow_prefs" subpath="password_"/>
+        <exclude domain="sharedpref" path="aquaglow_prefs" subpath="login_"/>
+        <exclude domain="sharedpref" path="aquaglow_prefs" subpath="session_"/>
     </cloud-backup>
     <!--
     <device-transfer>

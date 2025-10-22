@@ -29,6 +29,7 @@ class NameInputActivity : AppCompatActivity() {
         setupAnimations()
         setupNameInput()
         setupLetsBeginButton()
+        setupGlowEffects()
     }
     
     /**
@@ -158,5 +159,16 @@ class NameInputActivity : AppCompatActivity() {
         // Start WelcomeActivity
         startActivity(Intent(this, WelcomeActivity::class.java))
         finish()
+    }
+
+    private fun setupGlowEffects() {
+        // Add breathing effect to input field
+        GlowAnimationUtils.createBreathingEffect(nameInputLayout, 4000L)
+        
+        // Add glow movement to button
+        GlowAnimationUtils.createBreathingEffect(letsBeginButton, 4000L)
+        
+        // Apply material glow effects
+        GlowAnimationUtils.applyMaterialGlow(letsBeginButton)
     }
 }

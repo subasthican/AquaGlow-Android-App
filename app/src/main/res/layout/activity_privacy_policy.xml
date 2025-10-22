@@ -7,39 +7,15 @@
     android:background="@color/background_light">
 
     <!-- Header -->
-    <LinearLayout
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:background="@color/surface_light"
-        android:elevation="4dp">
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/backButton"
-            style="@style/Widget.Material3.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="← Back"
-            android:textColor="@color/primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Privacy Policy"
-            android:textAlignment="center"
-            android:textColor="@color/text_primary_light"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <View
-            android:layout_width="60dp"
-            android:layout_height="1dp" />
-
-    </LinearLayout>
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:title="Privacy Policy"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_back"
+        app:navigationIconTint="@android:color/white" />
 
     <!-- Content -->
     <ScrollView
@@ -52,7 +28,7 @@
             android:id="@+id/contentTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Privacy Policy content..."
+            android:text="@string/privacy_policy_content"
             android:textColor="@color/text_primary_light"
             android:textSize="14sp"
             android:lineSpacingExtra="4dp"
@@ -61,4 +37,5 @@
     </ScrollView>
 
 </LinearLayout>
+
 

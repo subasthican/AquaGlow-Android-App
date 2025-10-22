@@ -41,34 +41,49 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/skipButton"
-            style="@style/Widget.Material3.Button.TextButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="12dp"
             android:layout_weight="1"
             android:text="@string/skip"
-            android:textColor="@color/gray_600" />
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/surface_light"
+            app:rippleColor="@color/selector_primary_ripple"
+            app:cornerRadius="28dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nextButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
             android:layout_weight="1"
             android:text="@string/next"
-            app:backgroundTint="@color/primary" />
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/secondary"
+            app:rippleColor="@color/selector_primary_ripple"
+            app:cornerRadius="28dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/getStartedButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
             android:layout_weight="1"
             android:text="@string/get_started"
             android:visibility="gone"
-            app:backgroundTint="@color/primary" />
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/secondary"
+            app:rippleColor="@color/selector_primary_ripple"
+            app:cornerRadius="28dp" />
 
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 
