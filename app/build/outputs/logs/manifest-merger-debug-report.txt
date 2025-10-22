@@ -1,0 +1,1053 @@
+-- Merging decision tree log ---
+provider#androidx.startup.InitializationProvider
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:190:9-198:20
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:194:13-31
+	android:authorities
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:192:13-68
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:191:13-67
+manifest
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:2:1-220:12
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:2:1-220:12
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:2:1-220:12
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:2:1-220:12
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/c5e491591fe104a6319a80b73d19d6de/transformed/navigation-common-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/b01a30b4264a0792bdaa62b96c63a277/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/4e9b9dbe8a7cd10d875bf897e5189faa/transformed/navigation-fragment-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/e9f2ba3866a42c7821f2c4ad63c928a5/transformed/navigation-ui-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.13.0] /Users/subasthican/.gradle/caches/8.13/transforms/0451ab591bef45687f6b2c86519c8b1a/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/3eea3c79258aceb06c6205c10567d8cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/1635e723501eda945a8f9245893c77e3/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/e6f0e77ed60c4d47f60a92beb1d5d9f6/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/subasthican/.gradle/caches/8.13/transforms/eb72ae47f47ad09aa28141c1b131299e/transformed/recyclerview-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/3bd837b6e9c7929dc161e242def6e2f7/transformed/viewpager2-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/028ce3a5afd943e9e448855367270857/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/251e95369bee1302d9faa8531bb41877/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/a90693782bbfdde9fc874118b774e914/transformed/fragment-1.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e95692f8e56e55ce292d460b20dd5c08/transformed/activity-ktx-1.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e047491892f333446daad1a279a922a1/transformed/activity-1.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.glance:glance:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/175bd292d61baaad678b9c7f78b0a4e5/transformed/glance-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/33daab9329d058e79143c3624606c8ca/transformed/work-runtime-ktx-2.10.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/081a879f672ef5c1e2da6a25fd09eb37/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/7da0377a86781cee3b3b771ae7f5f1d9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/d4156c53af0eb3537322bb8ef7e0c337/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c72cf697900677022d4bd506122806de/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/subasthican/.gradle/caches/8.13/transforms/32f2a16aaacc544646dff762ab3a435e/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/800d8201eaa6c0913b26184eb6d9e2c5/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/7dba346fa257f5f1fdaab533d4923f4b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/4cc71ec603f663df164fa94fb9ad8a21/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/2a6e2c41d74fa99d87b325a35820129f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/06bd9903ae3b0f39ace9af9aa64fba0d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/cda059b0d5ddb842122b8af7aa1d7b39/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/739de6b5d9e2e353a3c25cd09ddf5ec3/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/68eaf4b14a2636137efd248f600fba3a/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/613295ac49d2810bfab8d23e3fdb56ce/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/cb51ca6d6a94f06bb75c541ba9fd5111/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/10c137b9b6fd5d604d2ccd462aa4b110/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/37f95760cb6349cd2dc0c7ee51bda29f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/e9011fd12759434c49075639402a2672/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/87f74d41229060ef9b5478f26a07cbec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/9f7ec4fa4145a8db9ed47d0ec60d1811/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/511597a226a8c6f54363d79de187ee59/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/0b407c71cff34a8b591a2554b67aa9de/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/ca171541e0ed1200b9aa9b86c7ee0530/transformed/graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/971c1c564bf692ff3e5762026819dd77/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fddef5996b85a78a477514bdad5b06/transformed/core-ktx-1.17.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/0e64dd1c05939114ba2fe9d2149ef985/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/355108acc7a54901fae639273fa5943b/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/subasthican/.gradle/caches/8.13/transforms/424885a04b7065d8a47bf3d8f6a1536f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c8c28dc39043abaddf5096d76aac8f13/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/e66fdaec5c4db0e2682d8f7bbb1aa151/transformed/tracing-ktx-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/4465e31a9a09bfe8da52a79248a1df7f/transformed/ui-graphics-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/35c1da3203fd3a4c697e7d80d6129a6a/transformed/ui-unit-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9590aeaad4eab5ce7f72d89cea7b7623/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/8f39c223cd2479d74eedf739141607a7/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/aebff20db7f81a307d2e910a6f467865/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e31c110781f7b184c6bc23dffc4a3d44/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/c7b726ee63a59c80606cc9983c0e5eff/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/efcbedcde0254b9237c19808d6fa114e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/663ed7b015d6a94346d7d4015aff63bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/a3c50563d7993003192d79f668fc3b53/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/e51f0ce8b09f9943a1f8cc8a73df5305/transformed/ui-geometry-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/8d3de38baf4198f7919b81a0b2a47701/transformed/runtime-1.2.1/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/e0eaf642abde8a43290eceb58715ba78/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/2d7b0e927958de214553800e390d07ca/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/a44539d24f72e6f9911c365b9ea1b885/transformed/ui-util-1.1.1/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:6:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:12:5-77
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:13:5-87
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:13:22-84
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:17:22-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:18:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:20:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:24:22-73
+uses-permission#android.permission.NEARBY_WIFI_DEVICES
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:25:5-78
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:25:22-75
+application
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:27:5-218:19
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:27:5-218:19
+MERGED from [com.google.android.material:material:1.13.0] /Users/subasthican/.gradle/caches/8.13/transforms/0451ab591bef45687f6b2c86519c8b1a/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] /Users/subasthican/.gradle/caches/8.13/transforms/0451ab591bef45687f6b2c86519c8b1a/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/3eea3c79258aceb06c6205c10567d8cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/3eea3c79258aceb06c6205c10567d8cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/251e95369bee1302d9faa8531bb41877/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/251e95369bee1302d9faa8531bb41877/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/663ed7b015d6a94346d7d4015aff63bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/663ed7b015d6a94346d7d4015aff63bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:33:9-41
+	android:fullBackupContent
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:31:9-54
+	android:roundIcon
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:34:9-54
+	android:icon
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:32:9-43
+	android:allowBackup
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:36:9-46
+	android:dataExtractionRules
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:30:9-65
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:28:9-44
+activity#com.example.aquaglow.SplashActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:42:13-57
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:40:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:45:27-74
+activity#com.example.aquaglow.OnboardingActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:50:9-53:53
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:52:13-37
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:53:13-50
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:51:13-47
+activity#com.example.aquaglow.NameInputActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:56:13-59:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:58:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:59:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:57:17-50
+activity#com.example.aquaglow.RegisterActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:62:13-65:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:64:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:65:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:63:17-49
+activity#com.example.aquaglow.LoginActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:66:13-69:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:68:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:69:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:67:17-46
+activity#com.example.aquaglow.ForgotPasswordActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:70:13-73:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:72:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:73:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:71:17-55
+activity#com.example.aquaglow.WelcomeActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:76:13-79:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:78:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:79:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:77:17-48
+activity#com.example.aquaglow.MainActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:82:13-85:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:84:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:85:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:83:17-45
+activity#com.example.aquaglow.AboutActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:88:13-91:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:90:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:91:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:89:17-46
+activity#com.example.aquaglow.HelpActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:94:13-97:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:96:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:97:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:95:17-45
+activity#com.example.aquaglow.PrivacyPolicyActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:100:13-103:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:102:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:103:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:101:17-54
+activity#com.example.aquaglow.TermsOfServiceActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:106:13-109:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:108:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:109:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:107:17-55
+activity#com.example.aquaglow.BaseGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:112:13-115:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:114:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:115:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:113:17-49
+activity#com.example.aquaglow.MemoryGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:116:13-119:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:118:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:119:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:117:17-51
+activity#com.example.aquaglow.ReflexGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:120:13-123:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:122:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:123:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:121:17-51
+activity#com.example.aquaglow.BreathingGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:124:13-127:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:126:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:127:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:125:17-54
+activity#com.example.aquaglow.MeditationGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:128:13-131:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:130:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:131:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:129:17-55
+activity#com.example.aquaglow.PuzzleGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:132:13-135:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:134:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:135:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:133:17-51
+activity#com.example.aquaglow.FitnessGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:136:13-139:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:138:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:139:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:137:17-52
+activity#com.example.aquaglow.MindfulnessGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:140:13-143:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:142:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:143:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:141:17-56
+activity#com.example.aquaglow.BlinkGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:146:13-149:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:148:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:149:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:147:17-50
+activity#com.example.aquaglow.PlaceholderGameActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:152:13-155:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:154:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:155:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:153:17-56
+activity#com.example.aquaglow.QuizActivity
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:158:13-161:57
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:160:17-41
+	android:theme
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:161:17-54
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:159:17-45
+service#com.example.aquaglow.StepCounterService
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:164:9-168:56
+	android:enabled
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:166:13-35
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:167:13-37
+	android:foregroundServiceType
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:168:13-53
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:165:13-47
+service#com.example.aquaglow.HydrationReminderService
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:171:9-175:56
+	android:enabled
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:173:13-35
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:174:13-37
+	android:foregroundServiceType
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:175:13-53
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:172:13-53
+receiver#com.example.aquaglow.AquaGlowWidgetProvider
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:178:9-187:20
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:180:13-36
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:179:13-51
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:181:13-183:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:182:17-84
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:182:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:184:13-186:64
+	android:resource
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:186:17-61
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:185:17-58
+receiver#com.example.aquaglow.HydrationNotificationReceiver
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:201:9-207:20
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:202:13-58
+intent-filter#action:name:com.example.aquaglow.ADD_WATER
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:204:13-206:29
+action#com.example.aquaglow.ADD_WATER
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:205:17-73
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:205:25-70
+receiver#com.example.aquaglow.HabitNotificationReceiver
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:210:9-216:20
+	android:exported
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:212:13-37
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:211:13-54
+intent-filter#action:name:com.example.aquaglow.MARK_HABIT_COMPLETE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:213:13-215:29
+action#com.example.aquaglow.MARK_HABIT_COMPLETE
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:214:17-83
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:214:25-80
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:195:13-197:52
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:34:13-36:52
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:197:17-49
+	android:name
+		ADDED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:196:17-68
+uses-sdk
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/c5e491591fe104a6319a80b73d19d6de/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/c5e491591fe104a6319a80b73d19d6de/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/b01a30b4264a0792bdaa62b96c63a277/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/b01a30b4264a0792bdaa62b96c63a277/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/4e9b9dbe8a7cd10d875bf897e5189faa/transformed/navigation-fragment-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/4e9b9dbe8a7cd10d875bf897e5189faa/transformed/navigation-fragment-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/e9f2ba3866a42c7821f2c4ad63c928a5/transformed/navigation-ui-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.4] /Users/subasthican/.gradle/caches/8.13/transforms/e9f2ba3866a42c7821f2c4ad63c928a5/transformed/navigation-ui-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/subasthican/.gradle/caches/8.13/transforms/0451ab591bef45687f6b2c86519c8b1a/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/subasthican/.gradle/caches/8.13/transforms/0451ab591bef45687f6b2c86519c8b1a/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/3eea3c79258aceb06c6205c10567d8cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/3eea3c79258aceb06c6205c10567d8cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/1635e723501eda945a8f9245893c77e3/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/1635e723501eda945a8f9245893c77e3/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/e6f0e77ed60c4d47f60a92beb1d5d9f6/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/subasthican/.gradle/caches/8.13/transforms/e6f0e77ed60c4d47f60a92beb1d5d9f6/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/subasthican/.gradle/caches/8.13/transforms/eb72ae47f47ad09aa28141c1b131299e/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/subasthican/.gradle/caches/8.13/transforms/eb72ae47f47ad09aa28141c1b131299e/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/3bd837b6e9c7929dc161e242def6e2f7/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/3bd837b6e9c7929dc161e242def6e2f7/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/028ce3a5afd943e9e448855367270857/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/028ce3a5afd943e9e448855367270857/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/251e95369bee1302d9faa8531bb41877/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/251e95369bee1302d9faa8531bb41877/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/a90693782bbfdde9fc874118b774e914/transformed/fragment-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.5] /Users/subasthican/.gradle/caches/8.13/transforms/a90693782bbfdde9fc874118b774e914/transformed/fragment-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e95692f8e56e55ce292d460b20dd5c08/transformed/activity-ktx-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e95692f8e56e55ce292d460b20dd5c08/transformed/activity-ktx-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e047491892f333446daad1a279a922a1/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/subasthican/.gradle/caches/8.13/transforms/e047491892f333446daad1a279a922a1/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/175bd292d61baaad678b9c7f78b0a4e5/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/175bd292d61baaad678b9c7f78b0a4e5/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/33daab9329d058e79143c3624606c8ca/transformed/work-runtime-ktx-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/33daab9329d058e79143c3624606c8ca/transformed/work-runtime-ktx-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/081a879f672ef5c1e2da6a25fd09eb37/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/081a879f672ef5c1e2da6a25fd09eb37/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/7da0377a86781cee3b3b771ae7f5f1d9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/7da0377a86781cee3b3b771ae7f5f1d9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/d4156c53af0eb3537322bb8ef7e0c337/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/d4156c53af0eb3537322bb8ef7e0c337/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c72cf697900677022d4bd506122806de/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c72cf697900677022d4bd506122806de/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/subasthican/.gradle/caches/8.13/transforms/32f2a16aaacc544646dff762ab3a435e/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/subasthican/.gradle/caches/8.13/transforms/32f2a16aaacc544646dff762ab3a435e/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/800d8201eaa6c0913b26184eb6d9e2c5/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/800d8201eaa6c0913b26184eb6d9e2c5/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/7dba346fa257f5f1fdaab533d4923f4b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/7dba346fa257f5f1fdaab533d4923f4b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/4cc71ec603f663df164fa94fb9ad8a21/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/4cc71ec603f663df164fa94fb9ad8a21/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/2a6e2c41d74fa99d87b325a35820129f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/2a6e2c41d74fa99d87b325a35820129f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/06bd9903ae3b0f39ace9af9aa64fba0d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/06bd9903ae3b0f39ace9af9aa64fba0d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/cda059b0d5ddb842122b8af7aa1d7b39/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/cda059b0d5ddb842122b8af7aa1d7b39/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/739de6b5d9e2e353a3c25cd09ddf5ec3/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/739de6b5d9e2e353a3c25cd09ddf5ec3/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/68eaf4b14a2636137efd248f600fba3a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/68eaf4b14a2636137efd248f600fba3a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/613295ac49d2810bfab8d23e3fdb56ce/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/613295ac49d2810bfab8d23e3fdb56ce/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/cb51ca6d6a94f06bb75c541ba9fd5111/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/cb51ca6d6a94f06bb75c541ba9fd5111/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/10c137b9b6fd5d604d2ccd462aa4b110/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/10c137b9b6fd5d604d2ccd462aa4b110/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/37f95760cb6349cd2dc0c7ee51bda29f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/37f95760cb6349cd2dc0c7ee51bda29f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/e9011fd12759434c49075639402a2672/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/e9011fd12759434c49075639402a2672/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/87f74d41229060ef9b5478f26a07cbec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/87f74d41229060ef9b5478f26a07cbec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/9f7ec4fa4145a8db9ed47d0ec60d1811/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/9f7ec4fa4145a8db9ed47d0ec60d1811/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/511597a226a8c6f54363d79de187ee59/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/511597a226a8c6f54363d79de187ee59/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/0b407c71cff34a8b591a2554b67aa9de/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/0b407c71cff34a8b591a2554b67aa9de/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/ca171541e0ed1200b9aa9b86c7ee0530/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/ca171541e0ed1200b9aa9b86c7ee0530/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/971c1c564bf692ff3e5762026819dd77/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/971c1c564bf692ff3e5762026819dd77/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fddef5996b85a78a477514bdad5b06/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fddef5996b85a78a477514bdad5b06/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/0e64dd1c05939114ba2fe9d2149ef985/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/0e64dd1c05939114ba2fe9d2149ef985/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/355108acc7a54901fae639273fa5943b/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/355108acc7a54901fae639273fa5943b/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/subasthican/.gradle/caches/8.13/transforms/424885a04b7065d8a47bf3d8f6a1536f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/subasthican/.gradle/caches/8.13/transforms/424885a04b7065d8a47bf3d8f6a1536f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/c3d5d7e73464b34046779636a8145c2d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c8c28dc39043abaddf5096d76aac8f13/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/c8c28dc39043abaddf5096d76aac8f13/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/e66fdaec5c4db0e2682d8f7bbb1aa151/transformed/tracing-ktx-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/e66fdaec5c4db0e2682d8f7bbb1aa151/transformed/tracing-ktx-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/4465e31a9a09bfe8da52a79248a1df7f/transformed/ui-graphics-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/4465e31a9a09bfe8da52a79248a1df7f/transformed/ui-graphics-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/35c1da3203fd3a4c697e7d80d6129a6a/transformed/ui-unit-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/35c1da3203fd3a4c697e7d80d6129a6a/transformed/ui-unit-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9590aeaad4eab5ce7f72d89cea7b7623/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9590aeaad4eab5ce7f72d89cea7b7623/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/8f39c223cd2479d74eedf739141607a7/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/8f39c223cd2479d74eedf739141607a7/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/aebff20db7f81a307d2e910a6f467865/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/subasthican/.gradle/caches/8.13/transforms/aebff20db7f81a307d2e910a6f467865/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e31c110781f7b184c6bc23dffc4a3d44/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e31c110781f7b184c6bc23dffc4a3d44/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/c7b726ee63a59c80606cc9983c0e5eff/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/c7b726ee63a59c80606cc9983c0e5eff/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/efcbedcde0254b9237c19808d6fa114e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/efcbedcde0254b9237c19808d6fa114e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/663ed7b015d6a94346d7d4015aff63bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/663ed7b015d6a94346d7d4015aff63bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/a3c50563d7993003192d79f668fc3b53/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/subasthican/.gradle/caches/8.13/transforms/a3c50563d7993003192d79f668fc3b53/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/e51f0ce8b09f9943a1f8cc8a73df5305/transformed/ui-geometry-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/e51f0ce8b09f9943a1f8cc8a73df5305/transformed/ui-geometry-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/8d3de38baf4198f7919b81a0b2a47701/transformed/runtime-1.2.1/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.runtime:runtime:1.2.1] /Users/subasthican/.gradle/caches/8.13/transforms/8d3de38baf4198f7919b81a0b2a47701/transformed/runtime-1.2.1/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/e0eaf642abde8a43290eceb58715ba78/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/e0eaf642abde8a43290eceb58715ba78/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/2d7b0e927958de214553800e390d07ca/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/2d7b0e927958de214553800e390d07ca/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/a44539d24f72e6f9911c365b9ea1b885/transformed/ui-util-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/subasthican/.gradle/caches/8.13/transforms/a44539d24f72e6f9911c365b9ea1b885/transformed/ui-util-1.1.1/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:7:22-76
+service#com.google.android.gms.nearby.exposurenotification.WakeUpService
+ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:10:9-13:105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:12:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:13:13-102
+	android:name
+		ADDED from [com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:11:13-92
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+activity#androidx.glance.appwidget.action.ActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:23:9-27:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:25:13-35
+	android:excludeFromRecents
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:26:13-46
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:24:13-85
+activity#androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:28:9-35:81
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:30:13-35
+	android:launchMode
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:32:13-48
+	android:noHistory
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:33:13-37
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:35:13-78
+	android:taskAffinity
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:34:13-91
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:29:13-94
+receiver#androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:37:9-40:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:38:13-92
+receiver#androidx.glance.appwidget.MyPackageReplacedReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:41:9-48:20
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:42:13-79
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:45:13-47:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:25-81
+service#androidx.glance.appwidget.GlanceRemoteViewsService
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:50:9-53:72
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:52:13-36
+	android:permission
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:51:13-78
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+service#androidx.core.widget.RemoteViewsCompatService
+ADDED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:24:9-27:63
+	tools:ignore
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:27:13-60
+	android:permission
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:25:13-73
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+permission#com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

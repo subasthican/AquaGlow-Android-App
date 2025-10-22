@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">@color/background_dark</color>
+    <color name="surface">@color/surface_dark</color>
+    <color name="text_primary">@color/text_primary_dark</color>
+    <color name="text_secondary">@color/text_secondary_dark</color>
+    <style name="Base.Theme.AquaGlow" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="colorPrimaryVariant">@color/secondary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="colorTertiary">@color/accent</item>
+        <item name="colorOnTertiary">@color/white</item>
+        
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnBackground">@color/text_primary_dark</item>
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        
+        <item name="android:windowLightNavigationBar" ns1:targetApi="27">false</item>
+        
+        
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+        <item name="colorOutline">@color/gray_600</item>
+        <item name="colorOutlineVariant">@color/gray_700</item>
+        
+        
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:textColorTertiary">@color/text_tertiary_dark</item>
+    </style>
+    <style name="Theme.AquaGlow" parent="Base.Theme.AquaGlow"/>
+    <style name="Theme.AquaGlow.Splash" parent="Theme.AquaGlow">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aquaglow"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="36" />
+
+    <!-- Permissions for notifications and system features -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+232
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Sensor permissions -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <!-- Bluetooth permissions for Nearby Connections -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.example.aquaglow.AquaGlowApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AquaGlow" >
+
+        <!-- Splash Activity (Entry Point) -->
+        <activity
+            android:name="com.example.aquaglow.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AquaGlow.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Onboarding Activity -->
+        <activity
+            android:name="com.example.aquaglow.OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Name Input Activity -->
+        <activity
+            android:name="com.example.aquaglow.NameInputActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Auth Activities -->
+        <activity
+            android:name="com.example.aquaglow.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Welcome Activity -->
+        <activity
+            android:name="com.example.aquaglow.WelcomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.example.aquaglow.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- About Activity -->
+        <activity
+            android:name="com.example.aquaglow.AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Help Activity -->
+        <activity
+            android:name="com.example.aquaglow.HelpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Privacy Policy Activity -->
+        <activity
+            android:name="com.example.aquaglow.PrivacyPolicyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Terms of Service Activity -->
+        <activity
+            android:name="com.example.aquaglow.TermsOfServiceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Game Activities -->
+        <activity
+            android:name="com.example.aquaglow.BaseGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.MemoryGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.ReflexGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.BreathingGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.MeditationGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.PuzzleGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.FitnessGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+        <activity
+            android:name="com.example.aquaglow.MindfulnessGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Blink Game Activity -->
+        <activity
+            android:name="com.example.aquaglow.BlinkGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Placeholder Game Activity -->
+        <activity
+            android:name="com.example.aquaglow.PlaceholderGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Quiz Activity -->
+        <activity
+            android:name="com.example.aquaglow.QuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AquaGlow" />
+
+        <!-- Step Counter Service -->
+        <service
+            android:name="com.example.aquaglow.StepCounterService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <!-- Hydration Reminder Service -->
+        <service
+            android:name="com.example.aquaglow.HydrationReminderService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <!-- Widget Provider -->
+        <receiver
+            android:name="com.example.aquaglow.AquaGlowWidgetProvider"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/aquaglow_widget_info" />
+        </receiver>
+
+        <!-- WorkManager for hydration reminders -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.aquaglow.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <!-- Hydration Notification Receiver -->
+        <receiver
+            android:name="com.example.aquaglow.HydrationNotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.example.aquaglow.ADD_WATER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Habit Notification Receiver -->
+        <receiver
+            android:name="com.example.aquaglow.HabitNotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.example.aquaglow.MARK_HABIT_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
+            android:exported="true"
+            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
+            android:enabled="true"
+            android:excludeFromRecents="true"
+            android:exported="false" />
+        <activity
+            android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+            android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline" />
+
+        <receiver
+            android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.glance.appwidget.MyPackageReplacedReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="androidx.glance.appwidget.GlanceRemoteViewsService"
+            android:exported="true"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false" />
+
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="androidx.core.widget.RemoteViewsCompatService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

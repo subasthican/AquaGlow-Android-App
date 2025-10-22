@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.aquaglow.app-mergeDebugResources-67:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/subasthican/.gradle/caches/8.13/transforms/e6f0e77ed60c4d47f60a92beb1d5d9f6/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

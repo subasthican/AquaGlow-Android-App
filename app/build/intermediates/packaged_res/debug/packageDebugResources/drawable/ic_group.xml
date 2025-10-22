@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    
+    <!-- Group/People icon -->
+    <!-- Person 1 -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,2C4.9,2 4,2.9 4,4C4,5.1 4.9,6 6,6C7.1,6 8,5.1 8,4C8,2.9 7.1,2 6,2Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,7C4.3,7 2,8.3 2,10V12H10V10C10,8.3 7.7,7 6,7Z" />
+    
+    <!-- Person 2 -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M10,2C8.9,2 8,2.9 8,4C8,5.1 8.9,6 10,6C11.1,6 12,5.1 12,4C12,2.9 11.1,2 10,2Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M10,7C8.3,7 6,8.3 6,10V12H14V10C14,8.3 11.7,7 10,7Z" />
+
+</vector>
+
+

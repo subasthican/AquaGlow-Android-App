@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- NEW 5-TAB NAVIGATION STRUCTURE -->
+    
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    
+    <item
+        android:id="@+id/trackFragment"
+        android:icon="@drawable/ic_habits_nav"
+        android:title="Track" />
+    
+    <item
+        android:id="@+id/insightsFragment"
+        android:icon="@drawable/ic_stats_nav"
+        android:title="Insights" />
+    
+    <item
+        android:id="@+id/stepsFragment"
+        android:icon="@drawable/ic_directions_walk"
+        android:title="Steps" />
+    
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+</menu>

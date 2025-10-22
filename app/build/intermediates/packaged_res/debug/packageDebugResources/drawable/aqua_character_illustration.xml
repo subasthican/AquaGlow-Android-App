@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Water Drop Character -->
+    
+    <!-- Main Water Drop Body -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M100,40 Q80,60 100,120 Q120,60 100,40 Z" />
+    
+    <!-- Water Drop Outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/secondary"
+        android:strokeWidth="3"
+        android:pathData="M100,40 Q80,60 100,120 Q120,60 100,40 Z" />
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M90,70 A6,6 0 1,1 90.01,70 Z" />
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M110,70 A6,6 0 1,1 110.01,70 Z" />
+    
+    <!-- Eye Highlights -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M92,68 A2,2 0 1,1 92.01,68 Z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M112,68 A2,2 0 1,1 112.01,68 Z" />
+    
+    <!-- Smile -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M85,85 Q100,95 115,85" />
+    
+    <!-- Blush -->
+    <path
+        android:fillColor="@color/secondary_variant"
+        android:pathData="M75,80 A4,4 0 1,1 75.01,80 Z" />
+    <path
+        android:fillColor="@color/secondary_variant"
+        android:pathData="M125,80 A4,4 0 1,1 125.01,80 Z" />
+    
+    <!-- Water Bubbles around the character -->
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M60,50 A8,8 0 1,1 60.01,50 Z"
+        android:alpha="0.7" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M140,60 A6,6 0 1,1 140.01,60 Z"
+        android:alpha="0.5" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M50,100 A5,5 0 1,1 50.01,100 Z"
+        android:alpha="0.6" />
+    <path
+        android:fillColor="@color/secondary_light"
+        android:pathData="M150,90 A7,7 0 1,1 150.01,90 Z"
+        android:alpha="0.4" />
+    
+    <!-- Sparkles -->
+    <path
+        android:fillColor="@color/accent_light"
+        android:pathData="M30,30 L35,30 L32.5,25 L30,30 Z" />
+    <path
+        android:fillColor="@color/accent_light"
+        android:pathData="M170,40 L175,40 L172.5,35 L170,40 Z" />
+    <path
+        android:fillColor="@color/accent_light"
+        android:pathData="M40,150 L45,150 L42.5,145 L40,150 Z" />
+    <path
+        android:fillColor="@color/accent_light"
+        android:pathData="M160,160 L165,160 L162.5,155 L160,160 Z" />
+
+</vector>

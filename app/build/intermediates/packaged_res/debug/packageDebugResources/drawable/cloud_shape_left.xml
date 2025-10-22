@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+
+    <!-- Left Cloud Shape -->
+    <path
+        android:fillColor="@color/background_light"
+        android:pathData="M0,80 Q20,60 40,70 Q60,50 80,60 Q100,40 120,50 Q140,30 160,40 Q180,20 200,40 L200,80 Z" />
+
+</vector>
+

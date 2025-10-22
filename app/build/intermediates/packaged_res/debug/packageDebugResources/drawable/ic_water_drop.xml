@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Beautiful water drop shape -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M12,2.69l0.71,0.67C17.3,7.78 20,11.5 20,15.2c0,4.42 -3.58,8 -8,8s-8,-3.58 -8,-8c0,-3.7 2.7,-7.42 7.29,-11.84L12,2.69M12,4.8c-3.88,3.88 -6,6.97 -6,10.4 0,3.31 2.69,6 6,6s6,-2.69 6,-6c0,-3.43 -2.12,-6.52 -6,-10.4z"/>
+    
+    <!-- Water shine/highlight effect -->
+    <path
+        android:fillColor="@android:color/white"
+        android:fillAlpha="0.3"
+        android:pathData="M9,10c0.55,0 1,-0.45 1,-1s-0.45,-1 -1,-1 -1,0.45 -1,1 0.45,1 1,1zM10.5,12.5c0.83,0 1.5,-0.67 1.5,-1.5s-0.67,-1.5 -1.5,-1.5 -1.5,0.67 -1.5,1.5 0.67,1.5 1.5,1.5z"/>
+</vector>

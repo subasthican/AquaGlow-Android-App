@@ -1,0 +1,101 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/nav_graph"
+app:startDestination="@id/dashboardFragment" >
+
+<!-- NEW 5-TAB STRUCTURE -->
+
+
+<!-- 1. HOME/DASHBOARD -->
+<fragment
+    android:id="@+id/dashboardFragment"
+    android:name="com.example.aquaglow.DashboardFragment"
+    android:label="Home" />
+
+<!-- 2. TRACK (Habits, Mood, Hydration) -->
+<fragment
+    android:id="@+id/trackFragment"
+    android:name="com.example.aquaglow.TrackFragment"
+    android:label="Track" />
+
+<!-- 3. INSIGHTS (Statistics, Achievements, Analytics) -->
+<fragment
+    android:id="@+id/insightsFragment"
+    android:name="com.example.aquaglow.InsightsFragment"
+    android:label="Insights" />
+
+<!-- 4. STEPS (Steps and Activity tracking) -->
+<fragment
+    android:id="@+id/stepsFragment"
+    android:name="com.example.aquaglow.StepsFragment"
+    android:label="Steps" />
+
+<!-- 5. PROFILE (Settings hub with Community) -->
+<fragment
+    android:id="@+id/profileFragment"
+    android:name="com.example.aquaglow.ProfileFragment"
+    android:label="Profile" />
+
+<!-- 6. CALENDAR (Wellness Calendar) -->
+<fragment
+    android:id="@+id/calendarFragment"
+    android:name="com.example.aquaglow.CalendarFragment"
+    android:label="Calendar" />
+
+<!-- SECONDARY PAGES (accessible from Profile) -->
+
+
+<!-- Community (moved from main navigation) -->
+<fragment
+    android:id="@+id/communityFragment"
+    android:name="com.example.aquaglow.SocialFragment"
+    android:label="Community" />
+<fragment
+    android:id="@+id/settingsFragment"
+    android:name="com.example.aquaglow.SettingsFragment"
+    android:label="Settings" />
+<fragment
+    android:id="@+id/goalsFragment"
+    android:name="com.example.aquaglow.GoalsFragment"
+    android:label="Goals" />
+<fragment
+    android:id="@+id/quizzesFragment"
+    android:name="com.example.aquaglow.QuizzesFragment"
+    android:label="Quizzes" />
+<fragment
+    android:id="@+id/gamesFragment"
+    android:name="com.example.aquaglow.GamesFragment"
+    android:label="Games" />
+<fragment
+    android:id="@+id/healthMetricsFragment"
+    android:name="com.example.aquaglow.HealthMetricsFragment"
+    android:label="Health Metrics" />
+
+<!-- ORIGINAL FRAGMENTS (for backward compatibility) -->
+
+<fragment
+    android:id="@+id/habitsFragment"
+    android:name="com.example.aquaglow.HabitsFragment"
+    android:label="@string/nav_habits" />
+<fragment
+    android:id="@+id/moodFragment"
+    android:name="com.example.aquaglow.MoodFragment"
+    android:label="@string/nav_mood" />
+<fragment
+    android:id="@+id/statisticsFragment"
+    android:name="com.example.aquaglow.StatisticsFragment"
+    android:label="@string/stats_title" />
+<fragment
+    android:id="@+id/achievementsFragment"
+    android:name="com.example.aquaglow.AchievementsFragment"
+    android:label="Achievements" />
+<fragment
+    android:id="@+id/socialFragment"
+    android:name="com.example.aquaglow.SocialFragment"
+    android:label="Social" />
+<fragment
+    android:id="@+id/nearbyFriendsFragment"
+    android:name="com.example.aquaglow.NearbyFriendsFragment"
+    android:label="Nearby Friends" />
+</navigation>

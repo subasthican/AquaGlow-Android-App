@@ -1,0 +1,771 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aquaglow"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <!-- Permissions for notifications and system features -->
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:6:22-74
+13232
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:7:5-68
+14-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:8:5-81
+15-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:8:22-78
+16
+17    <!-- Sensor permissions -->
+18    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+18-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:11:5-79
+18-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:12:5-77
+19-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+20-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:13:5-87
+20-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:13:22-84
+21
+22    <!-- Bluetooth permissions for Nearby Connections -->
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:16:5-68
+23-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:16:22-65
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:17:5-74
+24-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:17:22-71
+25    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+25-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:18:5-73
+25-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:18:22-70
+26    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+26-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:19:5-76
+26-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:19:22-73
+27    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+27-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:20:5-78
+27-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:20:22-75
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:21:5-79
+28-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:21:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:22:5-81
+29-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:22:22-78
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:23:5-76
+30-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:23:22-73
+31    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+31-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:24:5-76
+31-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:24:22-73
+32    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+32-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:25:5-78
+32-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:25:22-75
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:7:5-79
+33-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:7:22-76
+34
+35    <permission
+35-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+36        android:name="com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.example.aquaglow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:27:5-218:19
+42        android:name="com.example.aquaglow.AquaGlowApplication"
+42-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:28:9-44
+43        android:allowBackup="true"
+43-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:29:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.17.0] /Users/subasthican/.gradle/caches/8.13/transforms/fa8324846aac26f6a7ea62e972300e64/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+45        android:dataExtractionRules="@xml/data_extraction_rules"
+45-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:30:9-65
+46        android:debuggable="true"
+47        android:extractNativeLibs="false"
+48        android:fullBackupContent="@xml/backup_rules"
+48-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:31:9-54
+49        android:icon="@mipmap/ic_launcher"
+49-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:32:9-43
+50        android:label="@string/app_name"
+50-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:33:9-41
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:34:9-54
+52        android:supportsRtl="true"
+52-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:35:9-35
+53        android:testOnly="true"
+54        android:theme="@style/Theme.AquaGlow" >
+54-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:36:9-46
+55
+56        <!-- Splash Activity (Entry Point) -->
+57        <activity
+57-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:39:9-47:20
+58            android:name="com.example.aquaglow.SplashActivity"
+58-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:40:13-43
+59            android:exported="true"
+59-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:41:13-36
+60            android:theme="@style/Theme.AquaGlow.Splash" >
+60-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:42:13-57
+61            <intent-filter>
+61-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:43:13-46:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:44:17-69
+62-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:44:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:45:17-77
+64-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:45:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <!-- Onboarding Activity -->
+69        <activity
+69-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:50:9-53:53
+70            android:name="com.example.aquaglow.OnboardingActivity"
+70-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:51:13-47
+71            android:exported="false"
+71-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:52:13-37
+72            android:theme="@style/Theme.AquaGlow" />
+72-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:53:13-50
+73
+74        <!-- Name Input Activity -->
+75        <activity
+75-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:56:13-59:57
+76            android:name="com.example.aquaglow.NameInputActivity"
+76-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:57:17-50
+77            android:exported="false"
+77-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:58:17-41
+78            android:theme="@style/Theme.AquaGlow" />
+78-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:59:17-54
+79
+80        <!-- Auth Activities -->
+81        <activity
+81-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:62:13-65:57
+82            android:name="com.example.aquaglow.RegisterActivity"
+82-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:63:17-49
+83            android:exported="false"
+83-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:64:17-41
+84            android:theme="@style/Theme.AquaGlow" />
+84-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:65:17-54
+85        <activity
+85-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:66:13-69:57
+86            android:name="com.example.aquaglow.LoginActivity"
+86-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:67:17-46
+87            android:exported="false"
+87-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:68:17-41
+88            android:theme="@style/Theme.AquaGlow" />
+88-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:69:17-54
+89        <activity
+89-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:70:13-73:57
+90            android:name="com.example.aquaglow.ForgotPasswordActivity"
+90-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:71:17-55
+91            android:exported="false"
+91-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:72:17-41
+92            android:theme="@style/Theme.AquaGlow" />
+92-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:73:17-54
+93
+94        <!-- Welcome Activity -->
+95        <activity
+95-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:76:13-79:57
+96            android:name="com.example.aquaglow.WelcomeActivity"
+96-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:77:17-48
+97            android:exported="false"
+97-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:78:17-41
+98            android:theme="@style/Theme.AquaGlow" />
+98-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:79:17-54
+99
+100        <!-- Main Activity -->
+101        <activity
+101-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:82:13-85:57
+102            android:name="com.example.aquaglow.MainActivity"
+102-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:83:17-45
+103            android:exported="false"
+103-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:84:17-41
+104            android:theme="@style/Theme.AquaGlow" />
+104-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:85:17-54
+105
+106        <!-- About Activity -->
+107        <activity
+107-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:88:13-91:57
+108            android:name="com.example.aquaglow.AboutActivity"
+108-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:89:17-46
+109            android:exported="false"
+109-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:90:17-41
+110            android:theme="@style/Theme.AquaGlow" />
+110-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:91:17-54
+111
+112        <!-- Help Activity -->
+113        <activity
+113-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:94:13-97:57
+114            android:name="com.example.aquaglow.HelpActivity"
+114-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:95:17-45
+115            android:exported="false"
+115-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:96:17-41
+116            android:theme="@style/Theme.AquaGlow" />
+116-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:97:17-54
+117
+118        <!-- Privacy Policy Activity -->
+119        <activity
+119-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:100:13-103:57
+120            android:name="com.example.aquaglow.PrivacyPolicyActivity"
+120-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:101:17-54
+121            android:exported="false"
+121-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:102:17-41
+122            android:theme="@style/Theme.AquaGlow" />
+122-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:103:17-54
+123
+124        <!-- Terms of Service Activity -->
+125        <activity
+125-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:106:13-109:57
+126            android:name="com.example.aquaglow.TermsOfServiceActivity"
+126-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:107:17-55
+127            android:exported="false"
+127-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:108:17-41
+128            android:theme="@style/Theme.AquaGlow" />
+128-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:109:17-54
+129
+130        <!-- Game Activities -->
+131        <activity
+131-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:112:13-115:57
+132            android:name="com.example.aquaglow.BaseGameActivity"
+132-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:113:17-49
+133            android:exported="false"
+133-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:114:17-41
+134            android:theme="@style/Theme.AquaGlow" />
+134-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:115:17-54
+135        <activity
+135-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:116:13-119:57
+136            android:name="com.example.aquaglow.MemoryGameActivity"
+136-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:117:17-51
+137            android:exported="false"
+137-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:118:17-41
+138            android:theme="@style/Theme.AquaGlow" />
+138-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:119:17-54
+139        <activity
+139-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:120:13-123:57
+140            android:name="com.example.aquaglow.ReflexGameActivity"
+140-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:121:17-51
+141            android:exported="false"
+141-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:122:17-41
+142            android:theme="@style/Theme.AquaGlow" />
+142-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:123:17-54
+143        <activity
+143-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:124:13-127:57
+144            android:name="com.example.aquaglow.BreathingGameActivity"
+144-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:125:17-54
+145            android:exported="false"
+145-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:126:17-41
+146            android:theme="@style/Theme.AquaGlow" />
+146-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:127:17-54
+147        <activity
+147-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:128:13-131:57
+148            android:name="com.example.aquaglow.MeditationGameActivity"
+148-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:129:17-55
+149            android:exported="false"
+149-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:130:17-41
+150            android:theme="@style/Theme.AquaGlow" />
+150-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:131:17-54
+151        <activity
+151-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:132:13-135:57
+152            android:name="com.example.aquaglow.PuzzleGameActivity"
+152-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:133:17-51
+153            android:exported="false"
+153-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:134:17-41
+154            android:theme="@style/Theme.AquaGlow" />
+154-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:135:17-54
+155        <activity
+155-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:136:13-139:57
+156            android:name="com.example.aquaglow.FitnessGameActivity"
+156-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:137:17-52
+157            android:exported="false"
+157-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:138:17-41
+158            android:theme="@style/Theme.AquaGlow" />
+158-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:139:17-54
+159        <activity
+159-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:140:13-143:57
+160            android:name="com.example.aquaglow.MindfulnessGameActivity"
+160-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:141:17-56
+161            android:exported="false"
+161-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:142:17-41
+162            android:theme="@style/Theme.AquaGlow" />
+162-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:143:17-54
+163
+164        <!-- Blink Game Activity -->
+165        <activity
+165-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:146:13-149:57
+166            android:name="com.example.aquaglow.BlinkGameActivity"
+166-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:147:17-50
+167            android:exported="false"
+167-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:148:17-41
+168            android:theme="@style/Theme.AquaGlow" />
+168-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:149:17-54
+169
+170        <!-- Placeholder Game Activity -->
+171        <activity
+171-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:152:13-155:57
+172            android:name="com.example.aquaglow.PlaceholderGameActivity"
+172-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:153:17-56
+173            android:exported="false"
+173-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:154:17-41
+174            android:theme="@style/Theme.AquaGlow" />
+174-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:155:17-54
+175
+176        <!-- Quiz Activity -->
+177        <activity
+177-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:158:13-161:57
+178            android:name="com.example.aquaglow.QuizActivity"
+178-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:159:17-45
+179            android:exported="false"
+179-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:160:17-41
+180            android:theme="@style/Theme.AquaGlow" />
+180-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:161:17-54
+181
+182        <!-- Step Counter Service -->
+183        <service
+183-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:164:9-168:56
+184            android:name="com.example.aquaglow.StepCounterService"
+184-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:165:13-47
+185            android:enabled="true"
+185-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:166:13-35
+186            android:exported="false"
+186-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:167:13-37
+187            android:foregroundServiceType="dataSync" />
+187-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:168:13-53
+188
+189        <!-- Hydration Reminder Service -->
+190        <service
+190-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:171:9-175:56
+191            android:name="com.example.aquaglow.HydrationReminderService"
+191-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:172:13-53
+192            android:enabled="true"
+192-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:173:13-35
+193            android:exported="false"
+193-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:174:13-37
+194            android:foregroundServiceType="dataSync" />
+194-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:175:13-53
+195
+196        <!-- Widget Provider -->
+197        <receiver
+197-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:178:9-187:20
+198            android:name="com.example.aquaglow.AquaGlowWidgetProvider"
+198-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:179:13-51
+199            android:exported="true" >
+199-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:180:13-36
+200            <intent-filter>
+200-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:181:13-183:29
+201                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+201-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:182:17-84
+201-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:182:25-81
+202            </intent-filter>
+203
+204            <meta-data
+204-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:184:13-186:64
+205                android:name="android.appwidget.provider"
+205-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:185:17-58
+206                android:resource="@xml/aquaglow_widget_info" />
+206-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:186:17-61
+207        </receiver>
+208
+209        <!-- WorkManager for hydration reminders -->
+210        <provider
+211            android:name="androidx.startup.InitializationProvider"
+211-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:191:13-67
+212            android:authorities="com.example.aquaglow.androidx-startup"
+212-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:192:13-68
+213            android:exported="false" >
+213-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:193:13-37
+214            <meta-data
+214-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:195:13-197:52
+215                android:name="androidx.work.WorkManagerInitializer"
+215-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:196:17-68
+216                android:value="androidx.startup" />
+216-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:197:17-49
+217            <meta-data
+217-->[androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+218                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+218-->[androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+219                android:value="androidx.startup" />
+219-->[androidx.emoji2:emoji2:1.3.0] /Users/subasthican/.gradle/caches/8.13/transforms/557c0e7db2accb4eb79ba8cfd78e0b49/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+220            <meta-data
+220-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+221                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+221-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+222                android:value="androidx.startup" />
+222-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/subasthican/.gradle/caches/8.13/transforms/8628e3592f04377bd7d1d2dd86ede371/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+223            <meta-data
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+224                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+224-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+225                android:value="androidx.startup" />
+225-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+226        </provider>
+227
+228        <!-- Hydration Notification Receiver -->
+229        <receiver
+229-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:201:9-207:20
+230            android:name="com.example.aquaglow.HydrationNotificationReceiver"
+230-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:202:13-58
+231            android:exported="false" >
+231-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:203:13-37
+232            <intent-filter>
+232-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:204:13-206:29
+233                <action android:name="com.example.aquaglow.ADD_WATER" />
+233-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:205:17-73
+233-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:205:25-70
+234            </intent-filter>
+235        </receiver>
+236
+237        <!-- Habit Notification Receiver -->
+238        <receiver
+238-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:210:9-216:20
+239            android:name="com.example.aquaglow.HabitNotificationReceiver"
+239-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:211:13-54
+240            android:exported="false" >
+240-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:212:13-37
+241            <intent-filter>
+241-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:213:13-215:29
+242                <action android:name="com.example.aquaglow.MARK_HABIT_COMPLETE" />
+242-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:214:17-83
+242-->/Users/subasthican/AndroidStudioProjects/AquaGlow/app/src/main/AndroidManifest.xml:214:25-80
+243            </intent-filter>
+244        </receiver>
+245
+246        <service
+246-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:10:9-13:105
+247            android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
+247-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:11:13-92
+248            android:exported="true"
+248-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:12:13-36
+249            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+249-->[com.google.android.gms:play-services-nearby:19.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/65015ffce0c69e8df30db3a7592cba23/transformed/play-services-nearby-19.0.0/AndroidManifest.xml:13:13-102
+250
+251        <activity
+251-->[com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+252            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+252-->[com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+254-->[com.google.android.gms:play-services-base:18.0.1] /Users/subasthican/.gradle/caches/8.13/transforms/82770eb92882026194b33ddabd12502c/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+255
+256        <meta-data
+256-->[com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+257            android:name="com.google.android.gms.version"
+257-->[com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+258            android:value="@integer/google_play_services_version" />
+258-->[com.google.android.gms:play-services-basement:18.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/9035f79b5e9afa3dbf5e8397d21f52f8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+259
+260        <activity
+260-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:23:9-27:40
+261            android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
+261-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:24:13-85
+262            android:enabled="true"
+262-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:25:13-35
+263            android:excludeFromRecents="true"
+263-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:26:13-46
+264            android:exported="false" />
+264-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:27:13-37
+265        <activity
+265-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:28:9-35:81
+266            android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+266-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:29:13-94
+267            android:enabled="true"
+267-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:30:13-35
+268            android:exported="false"
+268-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:31:13-37
+269            android:launchMode="singleInstance"
+269-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:32:13-48
+270            android:noHistory="true"
+270-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:33:13-37
+271            android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+271-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:34:13-91
+272            android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline" />
+272-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:35:13-78
+273
+274        <receiver
+274-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:37:9-40:40
+275            android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+275-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:38:13-92
+276            android:enabled="true"
+276-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:39:13-35
+277            android:exported="false" />
+277-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:40:13-37
+278        <receiver
+278-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:41:9-48:20
+279            android:name="androidx.glance.appwidget.MyPackageReplacedReceiver"
+279-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:42:13-79
+280            android:enabled="true"
+280-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:43:13-35
+281            android:exported="false" >
+281-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:44:13-37
+282            <intent-filter>
+282-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:45:13-47:29
+283                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+283-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:17-84
+283-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:25-81
+284            </intent-filter>
+285        </receiver>
+286
+287        <service
+287-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:50:9-53:72
+288            android:name="androidx.glance.appwidget.GlanceRemoteViewsService"
+288-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:51:13-78
+289            android:exported="true"
+289-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:52:13-36
+290            android:permission="android.permission.BIND_REMOTEVIEWS" />
+290-->[androidx.glance:glance-appwidget:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/b571819d206ea6ea11b5799fcbc03fa3/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:53:13-69
+291        <service
+291-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:39:9-45:35
+292            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+292-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:40:13-88
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:41:13-44
+294            android:enabled="@bool/enable_system_alarm_service_default"
+294-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:42:13-72
+295            android:exported="false" />
+295-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:43:13-37
+296        <service
+296-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:46:9-52:35
+297            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+297-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:47:13-84
+298            android:directBootAware="false"
+298-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:48:13-44
+299            android:enabled="@bool/enable_system_job_service_default"
+299-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:49:13-70
+300            android:exported="true"
+300-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:50:13-36
+301            android:permission="android.permission.BIND_JOB_SERVICE" />
+301-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:51:13-69
+302        <service
+302-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:53:9-59:35
+303            android:name="androidx.work.impl.foreground.SystemForegroundService"
+303-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:54:13-81
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:55:13-44
+305            android:enabled="@bool/enable_system_foreground_service_default"
+305-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:56:13-77
+306            android:exported="false" />
+306-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:57:13-37
+307
+308        <receiver
+308-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:61:9-66:35
+309            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+309-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:62:13-88
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:63:13-44
+311            android:enabled="true"
+311-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:64:13-35
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:65:13-37
+313        <receiver
+313-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:67:9-77:20
+314            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+314-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:68:13-106
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:69:13-44
+316            android:enabled="false"
+316-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:70:13-36
+317            android:exported="false" >
+317-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:71:13-37
+318            <intent-filter>
+318-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:73:13-76:29
+319                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+319-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:74:17-87
+319-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:74:25-84
+320                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+320-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:75:17-90
+320-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:75:25-87
+321            </intent-filter>
+322        </receiver>
+323        <receiver
+323-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:78:9-88:20
+324            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+324-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:79:13-104
+325            android:directBootAware="false"
+325-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:80:13-44
+326            android:enabled="false"
+326-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:81:13-36
+327            android:exported="false" >
+327-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:82:13-37
+328            <intent-filter>
+328-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:84:13-87:29
+329                <action android:name="android.intent.action.BATTERY_OKAY" />
+329-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:85:17-77
+329-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:85:25-74
+330                <action android:name="android.intent.action.BATTERY_LOW" />
+330-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:86:17-76
+330-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:86:25-73
+331            </intent-filter>
+332        </receiver>
+333        <receiver
+333-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:89:9-99:20
+334            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+334-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:90:13-104
+335            android:directBootAware="false"
+335-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:91:13-44
+336            android:enabled="false"
+336-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:92:13-36
+337            android:exported="false" >
+337-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:93:13-37
+338            <intent-filter>
+338-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:95:13-98:29
+339                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+339-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:96:17-83
+339-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:96:25-80
+340                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+340-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:97:17-82
+340-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:97:25-79
+341            </intent-filter>
+342        </receiver>
+343        <receiver
+343-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:100:9-109:20
+344            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+344-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:101:13-103
+345            android:directBootAware="false"
+345-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:102:13-44
+346            android:enabled="false"
+346-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:103:13-36
+347            android:exported="false" >
+347-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:104:13-37
+348            <intent-filter>
+348-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:106:13-108:29
+349                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+349-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:107:17-79
+349-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:107:25-76
+350            </intent-filter>
+351        </receiver>
+352        <receiver
+352-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:110:9-121:20
+353            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+353-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:111:13-88
+354            android:directBootAware="false"
+354-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:112:13-44
+355            android:enabled="false"
+355-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:113:13-36
+356            android:exported="false" >
+356-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:114:13-37
+357            <intent-filter>
+357-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:116:13-120:29
+358                <action android:name="android.intent.action.BOOT_COMPLETED" />
+358-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:117:17-79
+358-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:117:25-76
+359                <action android:name="android.intent.action.TIME_SET" />
+359-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:118:17-73
+359-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:118:25-70
+360                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+360-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:119:17-81
+360-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:119:25-78
+361            </intent-filter>
+362        </receiver>
+363        <receiver
+363-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:122:9-131:20
+364            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+364-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:123:13-99
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:124:13-44
+366            android:enabled="@bool/enable_system_alarm_service_default"
+366-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:125:13-72
+367            android:exported="false" >
+367-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:126:13-37
+368            <intent-filter>
+368-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:128:13-130:29
+369                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+369-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:129:17-98
+369-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:129:25-95
+370            </intent-filter>
+371        </receiver>
+372        <receiver
+372-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:132:9-142:20
+373            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+373-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:133:13-78
+374            android:directBootAware="false"
+374-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:134:13-44
+375            android:enabled="true"
+375-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:135:13-35
+376            android:exported="true"
+376-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:136:13-36
+377            android:permission="android.permission.DUMP" >
+377-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:137:13-57
+378            <intent-filter>
+378-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:139:13-141:29
+379                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+379-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:140:17-88
+379-->[androidx.work:work-runtime:2.10.0] /Users/subasthican/.gradle/caches/8.13/transforms/79eefcc87b0a246bac788f4097db0763/transformed/work-runtime-2.10.0/AndroidManifest.xml:140:25-85
+380            </intent-filter>
+381        </receiver>
+382
+383        <service
+383-->[androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:24:9-27:63
+384            android:name="androidx.core.widget.RemoteViewsCompatService"
+384-->[androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:25:13-73
+385            android:permission="android.permission.BIND_REMOTEVIEWS" />
+385-->[androidx.core:core-remoteviews:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/855b329e3200f32c064d09c2ea3fd921/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:26:13-69
+386
+387        <uses-library
+387-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+388            android:name="androidx.window.extensions"
+388-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+389            android:required="false" />
+389-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+390        <uses-library
+390-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+391            android:name="androidx.window.sidecar"
+391-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+392            android:required="false" />
+392-->[androidx.window:window:1.0.0] /Users/subasthican/.gradle/caches/8.13/transforms/e2fb764983414e12813beb10565797d2/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+393
+394        <service
+394-->[androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+395            android:name="androidx.room.MultiInstanceInvalidationService"
+395-->[androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+396            android:directBootAware="true"
+396-->[androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+397            android:exported="false" />
+397-->[androidx.room:room-runtime:2.6.1] /Users/subasthican/.gradle/caches/8.13/transforms/80a4d660983a85e20148f17311ccc52a/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+398
+399        <receiver
+399-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+400            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+400-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+401            android:directBootAware="false"
+401-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+402            android:enabled="true"
+402-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+403            android:exported="true"
+403-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+404            android:permission="android.permission.DUMP" >
+404-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+405            <intent-filter>
+405-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+406                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+406-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+406-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+407            </intent-filter>
+408            <intent-filter>
+408-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+409                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+409-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+409-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+410            </intent-filter>
+411            <intent-filter>
+411-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+412                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+412-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+412-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+413            </intent-filter>
+414            <intent-filter>
+414-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+415                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+415-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+415-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/subasthican/.gradle/caches/8.13/transforms/69d36a8cbf00742e390ca02621263a9a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+416            </intent-filter>
+417        </receiver>
+418    </application>
+419
+420</manifest>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.aquaglow.app-mergeDebugResources-67:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/subasthican/.gradle/caches/8.13/transforms/e6f0e77ed60c4d47f60a92beb1d5d9f6/transformed/appcompat-1.7.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}
